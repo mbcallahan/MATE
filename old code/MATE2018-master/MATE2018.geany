@@ -1,0 +1,42 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=2
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=MATE2018
+base_path=/home/christian/Documents/workspace/MATE2018
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=1
+FILE_NAME_0=1009;C++;0;EUTF-8;0;1;0;%2Fhome%2Fchristian%2FDocuments%2Fworkspace%2F2018-Robot-Codebase%2Fsrc%2FSubsystems%2FsysSmartDrive.cpp;0;2
+FILE_NAME_1=740;None;0;EUTF-8;0;1;0;%2Fhome%2Fchristian%2FDocuments%2Fworkspace%2FMATE2018%2Ffirmware%2Fdocs%2FMATE_CTL_DOCS;0;2
+
+[VTE]
+last_dir=/home/christian
+
+[build-menu]
+CMakeFT_01_LB=AVR cmake test
+CMakeFT_01_CM=cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/christian/Documents/workspace/MATE2018/playground/avrcmake-test/toolchains/atmega328pb.cmake && make
+CMakeFT_01_WD=/home/christian/Documents/workspace/MATE2018/playground/avrcmake-test/build
+filetypes=CMake;
