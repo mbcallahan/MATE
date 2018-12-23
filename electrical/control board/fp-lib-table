@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PCBLibs)(type KiCad)(uri "C:/Users/beuchet/OneDrive - Rose-Hulman Institute of Technology/Documents/New folder (2)/PCBLibs")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "C:/Users/beuchet/OneDrive - Rose-Hulman Institute of Technology/Documents/New folder (2)/footprints")(options "")(descr ""))
+)
