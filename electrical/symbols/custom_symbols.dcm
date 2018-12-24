@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ODROID-C2
+D Connector, double row, 02x20
+K connector
+$ENDCMP
+#
+#End Doc Library
