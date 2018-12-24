@@ -3224,4 +3224,6 @@ Text Notes 8650 4450 0    50   ~ 0
 DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
 Wire Notes Line
 	10950 5500 8150 5500
+Text Notes 4200 7550 0    50   ~ 0
+Consider moving to power board
 $EndSCHEMATC
