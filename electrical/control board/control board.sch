@@ -1117,36 +1117,6 @@ Connection ~ 2850 5450
 Text Notes 3450 7550 0    50   ~ 0
 Voltage Monitering
 $Comp
-L Device:R_Shunt R6
-U 1 1 5C076A09
-P 3800 5850
-F 0 "R6" H 3712 5896 50  0000 R CNN
-F 1 "1m" H 3712 5805 50  0000 R CNN
-F 2 "footprints:FC4L64" V 3730 5850 50  0001 C CNN
-F 3 "~" H 3800 5850 50  0001 C CNN
-	1    3800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom_symbols:INA240-INA240 U3
-U 1 1 5C085EBE
-P 4400 5850
-F 0 "U3" H 4400 6225 50  0000 C CNN
-F 1 "INA240-INA240" H 4400 6134 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 4400 5850 50  0001 C CNN
-F 3 "" H 4400 5850 50  0001 C CNN
-	1    4400 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 5800 3950 5800
-Wire Wire Line
-	3950 5800 3950 5750
-Wire Wire Line
-	4050 5900 3950 5900
-Wire Wire Line
-	3950 5900 3950 5950
-$Comp
 L Device:LED D1
 U 1 1 5BE46FE0
 P 5150 900
@@ -1276,41 +1246,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 9550 7100 9500
 $Comp
-L power:+48V #PWR0151
-U 1 1 5BFA8577
-P 3400 6050
-F 0 "#PWR0151" H 3400 5900 50  0001 C CNN
-F 1 "+48V" H 3415 6223 50  0000 C CNN
-F 2 "" H 3400 6050 50  0001 C CNN
-F 3 "" H 3400 6050 50  0001 C CNN
-	1    3400 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 6050 3400 6050
-Text Label 3800 5550 0    50   ~ 0
-48V_IN
-Wire Wire Line
-	3800 5650 3800 5550
-$Comp
-L power:GND #PWR0152
-U 1 1 5BFE347A
-P 4950 6200
-F 0 "#PWR0152" H 4950 5950 50  0001 C CNN
-F 1 "GND" H 4955 6027 50  0000 C CNN
-F 2 "" H 4950 6200 50  0001 C CNN
-F 3 "" H 4950 6200 50  0001 C CNN
-	1    4950 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 5800 4950 5800
-Wire Wire Line
-	4950 5800 4950 5900
-Wire Wire Line
-	4750 5900 4950 5900
-Connection ~ 4950 5900
-$Comp
 L Device:LED D4
 U 1 1 5C00BD15
 P 5200 2350
@@ -1417,59 +1352,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 2350 4850 2750
 Connection ~ 4850 2750
-$Comp
-L power:GND #PWR0154
-U 1 1 5C0DE6A1
-P 4000 6100
-F 0 "#PWR0154" H 4000 5850 50  0001 C CNN
-F 1 "GND" H 4005 5927 50  0000 C CNN
-F 2 "" H 4000 6100 50  0001 C CNN
-F 3 "" H 4000 6100 50  0001 C CNN
-	1    4000 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 6000 4000 6000
-Wire Wire Line
-	4000 6000 4000 6100
-$Comp
-L Device:C_Small C11
-U 1 1 5C10BBA8
-P 5050 6100
-F 0 "C11" H 5142 6146 50  0000 L CNN
-F 1 "C_Small" H 5142 6055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 6100 50  0001 C CNN
-F 3 "~" H 5050 6100 50  0001 C CNN
-	1    5050 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 5900 4950 6200
-Wire Wire Line
-	5050 6200 4950 6200
-Connection ~ 4950 6200
-Wire Wire Line
-	4750 6000 5050 6000
-$Comp
-L power:+3.3V #PWR0155
-U 1 1 5C167660
-P 5050 5900
-F 0 "#PWR0155" H 5050 5750 50  0001 C CNN
-F 1 "+3.3V" H 5065 6073 50  0000 C CNN
-F 2 "" H 5050 5900 50  0001 C CNN
-F 3 "" H 5050 5900 50  0001 C CNN
-	1    5050 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 5900 5050 6000
-Connection ~ 5050 6000
 Text Label 1600 3900 0    50   ~ 0
 CURRENT_MEASURE
 Wire Wire Line
 	1600 3900 2350 3900
-Text Label 4750 5700 0    50   ~ 0
-CURRENT_MEASURE
 $Comp
 L Transistor_BJT:DTC114E Q2
 U 1 1 5C1AFECC
@@ -2341,4 +2227,6 @@ Wire Wire Line
 	4350 2200 3750 2200
 Wire Wire Line
 	4350 900  4650 900 
+Text Notes 6800 6900 0    50   ~ 0
+Add header space for current measurement
 $EndSCHEMATC
