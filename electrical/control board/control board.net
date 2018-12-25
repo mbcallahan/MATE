@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\beuchet\\OneDrive - Rose-Hulman Institute of Technology\\Documents\\MATE\\MATE\\electrical\\control board\\control board.sch")
-    (date "12/24/2018 7:49:58 PM")
+    (date "12/24/2018 11:53:10 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -472,7 +472,10 @@
       (tstamp 5C406A53))
     (comp (ref J7)
       (value Power_Connector)
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name "Digikey #") "WM3803-ND "))
       (libsource (lib Connector_Generic) (part Conn_02x04_Counter_Clockwise) (description "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C362818)))
