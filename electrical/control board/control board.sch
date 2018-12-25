@@ -1220,10 +1220,6 @@ Wire Wire Line
 	5000 1650 4850 1650
 Wire Wire Line
 	4650 1650 4450 1650
-Wire Wire Line
-	4650 1300 4450 1300
-Wire Wire Line
-	4650 900  4400 900 
 $Comp
 L power:GND #PWR0144
 U 1 1 5BEA5846
@@ -2225,4 +2221,123 @@ Wire Wire Line
 	7000 4350 6900 4350
 Text Notes 4200 7550 0    50   ~ 0
 Consider moving to power board
+Text Notes 1850 10000 0    50   ~ 0
+Consider moving to power board
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J?
+U 1 1 5C362818
+P 8800 5600
+F 0 "J?" H 8850 5917 50  0000 C CNN
+F 1 "Power_Connector" H 8850 5826 50  0000 C CNN
+F 2 "" H 8800 5600 50  0001 C CNN
+F 3 "~" H 8800 5600 50  0001 C CNN
+	1    8800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C362D91
+P 9700 5750
+F 0 "#PWR?" H 9700 5600 50  0001 C CNN
+F 1 "+3.3V" H 9715 5923 50  0000 C CNN
+F 2 "" H 9700 5750 50  0001 C CNN
+F 3 "" H 9700 5750 50  0001 C CNN
+	1    9700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C362F15
+P 9500 5650
+F 0 "#PWR?" H 9500 5500 50  0001 C CNN
+F 1 "+5V" H 9515 5823 50  0000 C CNN
+F 2 "" H 9500 5650 50  0001 C CNN
+F 3 "" H 9500 5650 50  0001 C CNN
+	1    9500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5C3952B5
+P 9350 5550
+F 0 "#PWR?" H 9350 5400 50  0001 C CNN
+F 1 "+24V" H 9365 5723 50  0000 C CNN
+F 2 "" H 9350 5550 50  0001 C CNN
+F 3 "" H 9350 5550 50  0001 C CNN
+	1    9350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+48V #PWR?
+U 1 1 5C395374
+P 9200 5450
+F 0 "#PWR?" H 9200 5300 50  0001 C CNN
+F 1 "+48V" H 9215 5623 50  0000 C CNN
+F 2 "" H 9200 5450 50  0001 C CNN
+F 3 "" H 9200 5450 50  0001 C CNN
+	1    9200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5500 9100 5500
+Wire Wire Line
+	9350 5600 9100 5600
+Wire Wire Line
+	9500 5700 9100 5700
+Wire Wire Line
+	9700 5800 9100 5800
+Wire Wire Line
+	9700 5800 9700 5750
+Wire Wire Line
+	9500 5700 9500 5650
+Wire Wire Line
+	9350 5600 9350 5550
+Wire Wire Line
+	9200 5500 9200 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5C47CCF8
+P 8450 5850
+F 0 "#PWR?" H 8450 5600 50  0001 C CNN
+F 1 "GND" H 8455 5677 50  0000 C CNN
+F 2 "" H 8450 5850 50  0001 C CNN
+F 3 "" H 8450 5850 50  0001 C CNN
+	1    8450 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5800 8450 5800
+Wire Wire Line
+	8600 5700 8450 5700
+Wire Wire Line
+	8450 5600 8600 5600
+Wire Wire Line
+	8600 5500 8450 5500
+Connection ~ 8450 5600
+Connection ~ 8450 5700
+Wire Wire Line
+	8450 5500 8450 5600
+Wire Wire Line
+	8450 5700 8450 5600
+Connection ~ 8450 5800
+Wire Wire Line
+	8450 5700 8450 5800
+Wire Wire Line
+	8450 5800 8450 5850
+Wire Wire Line
+	4450 1650 4450 2400
+Wire Wire Line
+	4450 2400 3750 2400
+Wire Wire Line
+	4400 2300 3750 2300
+Wire Wire Line
+	4400 1300 4650 1300
+Wire Wire Line
+	4400 1300 4400 2300
+Wire Wire Line
+	4350 900  4350 2200
+Wire Wire Line
+	4350 2200 3750 2200
+Wire Wire Line
+	4350 900  4650 900 
 $EndSCHEMATC
