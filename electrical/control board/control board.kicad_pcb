@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 2)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -105,6 +105,9 @@
     (add_net +3V3)
     (add_net GND)
   )
+
+  (gr_arc (start 105.664 94.190937) (end 103.124 19.304) (angle -176.1147961) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 103.124 19.304) (end 103.124 169.077874) (layer Edge.Cuts) (width 0.2))
 
   (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
