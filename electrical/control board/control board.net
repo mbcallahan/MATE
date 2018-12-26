@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\beuchet\\OneDrive - Rose-Hulman Institute of Technology\\Documents\\MATE\\MATE\\electrical\\control board\\control board.sch")
-    (date "12/25/2018 8:19:16 PM")
+    (date "12/26/2018 5:37:40 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -73,7 +73,10 @@
       (tstamp 5BC94F4C))
     (comp (ref Y1)
       (value 8Mhz)
+      (footprint Crystal:Crystal_HC49-U_Vertical)
       (datasheet ~)
+      (fields
+        (field (name "digikey #") CTX917-ND‎))
       (libsource (lib Device) (part Crystal) (description "Two pin crystal"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC9E26F))
