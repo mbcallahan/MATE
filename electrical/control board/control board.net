@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\beuchet\\OneDrive - Rose-Hulman Institute of Technology\\Documents\\MATE\\MATE\\electrical\\control board\\control board.sch")
-    (date "12/25/2018 6:44:48 PM")
+    (date "12/25/2018 8:19:16 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

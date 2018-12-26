@@ -2227,4 +2227,6 @@ Wire Wire Line
 	4350 2200 3750 2200
 Wire Wire Line
 	4350 900  4650 900 
+Text Notes 6800 6900 0    50   ~ 0
+Add header space for current measurement
 $EndSCHEMATC

@@ -2229,4 +2229,6 @@ Wire Wire Line
 	4350 900  4650 900 
 Text Notes 6800 6900 0    50   ~ 0
 Add header space for current measurement
+Text Notes 9600 7650 0    50   ~ 0
+This ICM won't work. Find a new one that can be soldered
 $EndSCHEMATC
