@@ -542,7 +542,7 @@ Text Label 2000 4600 0    50   ~ 0
 MISC_TX
 Text Label 2000 4700 0    50   ~ 0
 MISC_RX
-Text Label 1800 4800 0    50   ~ 0
+Text Label 1800 5200 0    50   ~ 0
 UART5_TX
 Text Label 1850 4100 0    50   ~ 0
 USART3_RX
@@ -1583,10 +1583,10 @@ Text Label 3750 3700 0    50   ~ 0
 SWITCH_A
 Text Label 3750 3800 0    50   ~ 0
 SWITCH_B
-Text Label 3750 3900 0    50   ~ 0
-SWITCH_C
+Text Label 2000 3400 0    50   ~ 0
+MOTOR_6
 Text Label 3750 4100 0    50   ~ 0
-SWITCH_D
+MOTOR_5
 Wire Wire Line
 	4800 9000 4800 8700
 $Comp
@@ -1945,62 +1945,6 @@ F 3 "~" H 7200 6000 50  0001 C CNN
 	1    7200 6000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3900 3450 3900 3500
-Wire Wire Line
-	3900 3500 3750 3500
-Wire Wire Line
-	3900 3450 7000 3450
-Wire Wire Line
-	7000 3800 4300 3800
-Wire Wire Line
-	4300 3800 4300 4500
-Wire Wire Line
-	4300 4500 3750 4500
-Wire Wire Line
-	7000 4150 4400 4150
-Wire Wire Line
-	4400 4150 4400 4600
-Wire Wire Line
-	4400 4600 3750 4600
-Wire Wire Line
-	7000 4500 4550 4500
-Wire Wire Line
-	4550 4500 4550 4700
-Wire Wire Line
-	4550 4700 3750 4700
-Wire Wire Line
-	7000 4850 4550 4850
-Wire Wire Line
-	4550 4850 4550 4800
-Wire Wire Line
-	4550 4800 3750 4800
-Wire Wire Line
-	7000 5200 4450 5200
-Wire Wire Line
-	4450 5200 4450 4900
-Wire Wire Line
-	4450 4900 3750 4900
-Wire Wire Line
-	7000 5550 6700 5550
-Wire Wire Line
-	6700 5550 6700 5250
-Wire Wire Line
-	6700 5250 4350 5250
-Wire Wire Line
-	4350 5250 4350 5000
-Wire Wire Line
-	3750 5000 4350 5000
-Wire Wire Line
-	3750 5100 4250 5100
-Wire Wire Line
-	4250 5100 4250 5300
-Wire Wire Line
-	4250 5300 6650 5300
-Wire Wire Line
-	6650 5300 6650 5900
-Wire Wire Line
-	6650 5900 7000 5900
 $Comp
 L power:GND #PWR0125
 U 1 1 5C652F5F
@@ -2240,4 +2184,54 @@ Text Notes 6800 6900 0    50   ~ 0
 Add header space for current measurement
 Text Notes 9600 7650 0    50   ~ 0
 This ICM won't work. Find a new one that can be soldered
+Text Label 6650 3450 0    50   ~ 0
+MOTOR_1
+Text Label 6650 3800 0    50   ~ 0
+MOTOR_2
+Text Label 6650 4150 0    50   ~ 0
+MOTOR_3
+Text Label 6650 4500 0    50   ~ 0
+MOTOR_4
+Text Label 6650 4850 0    50   ~ 0
+MOTOR_5
+Text Label 6650 5200 0    50   ~ 0
+MOTOR_6
+Text Label 6650 5550 0    50   ~ 0
+MOTOR_7
+Text Label 6650 5900 0    50   ~ 0
+MOTOR_8
+Wire Wire Line
+	7000 5900 6650 5900
+Wire Wire Line
+	7000 5550 6650 5550
+Wire Wire Line
+	7000 5200 6650 5200
+Wire Wire Line
+	7000 4850 6650 4850
+Wire Wire Line
+	7000 4500 6650 4500
+Wire Wire Line
+	7000 4150 6650 4150
+Wire Wire Line
+	7000 3800 6650 3800
+Wire Wire Line
+	7000 3450 6650 3450
+Text Label 3750 4600 0    50   ~ 0
+MOTOR_2
+Text Label 3750 4500 0    50   ~ 0
+MOTOR_3
+Text Label 3750 4200 0    50   ~ 0
+MOTOR_4
+Text Label 2000 4800 0    50   ~ 0
+MOTOR_7
+Wire Wire Line
+	2000 4800 2350 4800
+Text Label 3750 3500 0    50   ~ 0
+MOTOR_8
+Text Label 2000 5100 0    50   ~ 0
+MOTOR_1
+Wire Wire Line
+	2350 5100 2000 5100
+Wire Wire Line
+	2000 3400 2350 3400
 $EndSCHEMATC
