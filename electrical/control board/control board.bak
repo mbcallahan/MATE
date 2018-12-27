@@ -318,7 +318,7 @@ F 0 "Y1" V 1854 3281 50  0000 L CNN
 F 1 "8Mhz" V 1945 3281 50  0000 L CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 1900 3150 50  0001 C CNN
 F 3 "~" H 1900 3150 50  0001 C CNN
-F 4 "535-10212-1-ND" V 1900 3150 50  0001 C CNN "digikey #"
+F 4 "CTX917-ND‎" V 1900 3150 50  0001 C CNN "digikey #"
 	1    1900 3150
 	0    1    1    0   
 $EndComp
