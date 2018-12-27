@@ -318,7 +318,8 @@ F 0 "Y1" V 1854 3281 50  0000 L CNN
 F 1 "8Mhz" V 1945 3281 50  0000 L CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 1900 3150 50  0001 C CNN
 F 3 "~" H 1900 3150 50  0001 C CNN
-F 4 "CTX917-ND‎" V 1900 3150 50  0001 C CNN "digikey #"
+F 4 "" V 1900 3150 50  0001 C CNN "digikey #"
+F 5 "CTX917-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1900 3150
 	0    1    1    0   
 $EndComp
@@ -1122,9 +1123,10 @@ L Device:LED D1
 U 1 1 5BE46FE0
 P 5150 900
 F 0 "D1" H 5142 645 50  0000 C CNN
-F 1 "LED" H 5142 736 50  0000 C CNN
+F 1 "LED-RED" H 5142 736 50  0000 C CNN
 F 2 "" H 5150 900 50  0001 C CNN
-F 3 "~" H 5150 900 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/SML-D12U1W" H 5150 900 50  0001 C CNN
+F 4 "SML-D12U1WT86CT-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    5150 900 
 	-1   0    0    1   
 $EndComp
@@ -1133,9 +1135,10 @@ L Device:LED D3
 U 1 1 5BE471AC
 P 5150 1650
 F 0 "D3" H 5142 1395 50  0000 C CNN
-F 1 "LED" H 5142 1486 50  0000 C CNN
+F 1 "LED-GREEN" H 5142 1486 50  0000 C CNN
 F 2 "" H 5150 1650 50  0001 C CNN
-F 3 "~" H 5150 1650 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 5150 1650 50  0001 C CNN
+F 4 "160-1446-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    5150 1650
 	-1   0    0    1   
 $EndComp
@@ -1144,9 +1147,10 @@ L Device:LED D2
 U 1 1 5BE472BC
 P 5150 1300
 F 0 "D2" H 5142 1045 50  0000 C CNN
-F 1 "LED" H 5142 1136 50  0000 C CNN
+F 1 "LED-YELLOW" H 5142 1136 50  0000 C CNN
 F 2 "" H 5150 1300 50  0001 C CNN
-F 3 "~" H 5150 1300 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-224/LTST-C191KSKT.PDF" H 5150 1300 50  0001 C CNN
+F 4 "160-1448-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    5150 1300
 	-1   0    0    1   
 $EndComp
@@ -1251,9 +1255,10 @@ L Device:LED D4
 U 1 1 5C00BD15
 P 5200 2350
 F 0 "D4" H 5191 2566 50  0000 C CNN
-F 1 "LED" H 5191 2475 50  0000 C CNN
+F 1 "LED-RED" H 5191 2475 50  0000 C CNN
 F 2 "" H 5200 2350 50  0001 C CNN
-F 3 "~" H 5200 2350 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/SML-D12U1W" H 5200 2350 50  0001 C CNN
+F 4 "SML-D12U1WT86CT-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    5200 2350
 	1    0    0    -1  
 $EndComp
@@ -1262,9 +1267,10 @@ L Device:LED D6
 U 1 1 5C00BDBD
 P 5200 3100
 F 0 "D6" H 5191 3316 50  0000 C CNN
-F 1 "LED" H 5191 3225 50  0000 C CNN
+F 1 "LED-GREEN" H 5191 3225 50  0000 C CNN
 F 2 "" H 5200 3100 50  0001 C CNN
-F 3 "~" H 5200 3100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 5200 3100 50  0001 C CNN
+F 4 "160-1446-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    5200 3100
 	1    0    0    -1  
 $EndComp
@@ -1273,9 +1279,10 @@ L Device:LED D5
 U 1 1 5C00BE5F
 P 5200 2750
 F 0 "D5" H 5191 2966 50  0000 C CNN
-F 1 "LED" H 5191 2875 50  0000 C CNN
+F 1 "LED-YELLOW" H 5191 2875 50  0000 C CNN
 F 2 "" H 5200 2750 50  0001 C CNN
-F 3 "~" H 5200 2750 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-224/LTST-C191KSKT.PDF" H 5200 2750 50  0001 C CNN
+F 4 "160-1448-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    5200 2750
 	1    0    0    -1  
 $EndComp
@@ -2118,7 +2125,8 @@ F 0 "J7" H 8850 5917 50  0000 C CNN
 F 1 "Power_Connector" H 8850 5826 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 8800 5600 50  0001 C CNN
 F 3 "~" H 8800 5600 50  0001 C CNN
-F 4 "WM3803-ND " H 8800 5600 50  0001 C CNN "Digikey #"
+F 4 "" H 8800 5600 50  0001 C CNN "Digikey #"
+F 5 "WM3803-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    8800 5600
 	1    0    0    -1  
 $EndComp
