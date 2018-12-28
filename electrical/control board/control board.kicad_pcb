@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 2)
+    (drawings 3)
     (tracks 488)
     (zones 0)
     (modules 57)
@@ -2881,13 +2881,14 @@
     )
   )
 
+  (gr_text "rev. 1" (at 39.37 106.68) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_arc (start 105.664 94.190937) (end 103.124 19.304) (angle -176.1147961) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 103.124 19.304) (end 103.124 169.077874) (layer Edge.Cuts) (width 0.2))
 
   (via (at 100.076 109.728) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 98.044 105.918) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
-  (via (at 67.056 68.072) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 57.15 113.919) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (via (at 65.278 101.854) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 65.024 95.25) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 65.024 98.552) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
@@ -2931,7 +2932,6 @@
   (segment (start 79.133109 114.739942) (end 78.558109 114.739942) (width 0.25) (layer B.Cu) (net 1) (tstamp 5C46EB9F) (status 10))
   (via (at 79.133109 114.739942) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (status 30))
   (via (at 79.133109 118.704942) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (status 30))
-  (via (at 76.454 66.802) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (status 30))
   (via (at 72.483109 123.952) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 72.708109 122.245942) (end 72.708109 123.727) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 72.708109 123.727) (end 72.483109 123.952) (width 0.25) (layer B.Cu) (net 1))
@@ -2951,6 +2951,9 @@
   (segment (start 99.25099 108.52101) (end 99.822 107.95) (width 0.2) (layer B.Cu) (net 1))
   (segment (start 97.145 109.357) (end 97.98099 108.52101) (width 0.2) (layer B.Cu) (net 1))
   (segment (start 97.98099 108.52101) (end 99.25099 108.52101) (width 0.2) (layer B.Cu) (net 1))
+  (via (at 67.056 68.072) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 57.15 113.919) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 76.454 66.802) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (status 30))
   (via (at 72.644 58.547) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (status 30))
   (segment (start 82.408109 120.295942) (end 81.658109 120.295942) (width 0.25) (layer B.Cu) (net 2) (status 30))
   (segment (start 72.148109 122.305942) (end 72.208109 122.245942) (width 0.25) (layer B.Cu) (net 2) (status 30))
