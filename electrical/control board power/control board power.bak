@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:control board power-cache
-LIBS:control board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -896,7 +895,7 @@ U 1 1 5C1B4B47
 P 5300 2100
 F 0 "U3" H 5300 2465 50  0000 C CNN
 F 1 "LTC7103-LT7103" H 5300 2374 50  0000 C CNN
-F 2 "footprints:LTC7103" H 5300 2100 50  0001 C CNN
+F 2 "footprints:LTC7103_long_pads_hole" H 5300 2100 50  0001 C CNN
 F 3 "" H 5300 2100 50  0001 C CNN
 	1    5300 2100
 	1    0    0    -1  
@@ -1007,7 +1006,7 @@ U 1 1 5BF89D42
 P 5250 4900
 F 0 "U2" H 5250 5265 50  0000 C CNN
 F 1 "LTC7103-LT7103" H 5250 5174 50  0000 C CNN
-F 2 "footprints:LTC7103" H 5250 4900 50  0001 C CNN
+F 2 "footprints:LTC7103_long_pads_hole" H 5250 4900 50  0001 C CNN
 F 3 "" H 5250 4900 50  0001 C CNN
 	1    5250 4900
 	1    0    0    -1  
@@ -1511,4 +1510,6 @@ Wire Wire Line
 	5550 10400 5500 10400
 Wire Wire Line
 	5500 10400 5500 10450
+Text Notes 3250 1350 0    50   ~ 0
+Check capacitor voltage ratings!!!
 $EndSCHEMATC
