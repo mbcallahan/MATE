@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name footprints)(type KiCad)(uri "C:/Users/beuchet/OneDrive - Rose-Hulman Institute of Technology/Documents/MATE/MATE/electrical/footprints")(options "")(descr ""))
+  (lib (name PJ-002AH)(type Legacy)(uri "C:/Users/beuchet/OneDrive - Rose-Hulman Institute of Technology/Documents/MATE/MATE/electrical/footprints/PJ-002AH.mod")(options "")(descr ""))
 )

@@ -1512,4 +1512,6 @@ Wire Wire Line
 	5500 10400 5500 10450
 Text Notes 3250 1350 0    50   ~ 0
 Check capacitor voltage ratings!!!
+Text Notes 4950 1150 0    50   ~ 0
+Look at Connor's 5V converter board to check component ratings, etc.
 $EndSCHEMATC

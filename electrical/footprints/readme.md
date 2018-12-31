@@ -1,1 +1,2 @@
-FC4L64, ODROID-C2, ICM-20648 by Connor Crenshaw
+FC4L64, ODROID-C2 by Connor Crenshaw
+PJ-002AH by manufacturer, modified to include silkscreen warning

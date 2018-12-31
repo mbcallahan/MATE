@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\beuchet\\OneDrive - Rose-Hulman Institute of Technology\\Documents\\MATE\\MATE\\electrical\\control board power\\control board power.sch")
-    (date "12/30/2018 2:30:46 PM")
+    (date "12/31/2018 6:20:05 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -66,7 +66,10 @@
       (tstamp 5CF4B3EE))
     (comp (ref J3)
       (value Barrel_Jack)
+      (footprint PJ-002AH:CUI_PJ-002AH)
       (datasheet ~)
+      (fields
+        (field (name "Digikey part number") "CP-002AH-ND "))
       (libsource (lib Connector) (part Barrel_Jack) (description "DC Barrel Jack"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BDE1D13))
