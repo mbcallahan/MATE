@@ -1364,8 +1364,6 @@ Wire Wire Line
 Connection ~ 5350 8000
 Wire Wire Line
 	5350 8000 5350 7900
-Text Notes 1850 10000 0    50   ~ 0
-Consider moving to power board
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J6
 U 1 1 5C362818
@@ -1515,4 +1513,14 @@ Text Notes 3250 1350 0    50   ~ 0
 Check capacitor voltage ratings!!!
 Text Notes 4950 1150 0    50   ~ 0
 Look at Connor's 5V converter board to check component ratings, etc.
+Wire Notes Line
+	750  7650 8050 7650
+Wire Notes Line
+	8050 7650 8050 10800
+Wire Notes Line
+	8050 10800 750  10800
+Wire Notes Line
+	750  10800 750  7650
+Text Notes 5500 10350 0    50   ~ 0
+Unnessesary
 $EndSCHEMATC

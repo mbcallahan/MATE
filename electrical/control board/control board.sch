@@ -22,6 +22,7 @@ F 0 "U1" H 3050 1614 50  0000 C CNN
 F 1 "STM32F446RETx" H 3050 1523 50  0000 C CNN
 F 2 "footprints:LQFP-64_10x10mm_P0.5mm_handsolder" H 2450 1800 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 3050 3500 50  0001 C CNN
+F 4 "497-15376-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    3050 3500
 	1    0    0    -1  
 $EndComp
@@ -98,6 +99,7 @@ F 0 "C5" H 2942 1646 50  0000 L CNN
 F 1 "100nF" H 2942 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2850 1600 50  0001 C CNN
 F 3 "~" H 2850 1600 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    2850 1600
 	1    0    0    -1  
 $EndComp
@@ -109,6 +111,7 @@ F 0 "C6" H 3042 1446 50  0000 L CNN
 F 1 "100nF" H 3042 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2950 1400 50  0001 C CNN
 F 3 "~" H 2950 1400 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    2950 1400
 	1    0    0    -1  
 $EndComp
@@ -120,6 +123,7 @@ F 0 "C7" H 3142 1246 50  0000 L CNN
 F 1 "100nF" H 3142 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3050 1200 50  0001 C CNN
 F 3 "~" H 3050 1200 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    3050 1200
 	1    0    0    -1  
 $EndComp
@@ -131,6 +135,7 @@ F 0 "C8" H 3242 1046 50  0000 L CNN
 F 1 "100nF" H 3242 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 1000 50  0001 C CNN
 F 3 "~" H 3150 1000 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    3150 1000
 	1    0    0    -1  
 $EndComp
@@ -142,6 +147,7 @@ F 0 "C9" H 3342 846 50  0000 L CNN
 F 1 "100nF" H 3342 755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 800 50  0001 C CNN
 F 3 "~" H 3250 800 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    3250 800 
 	1    0    0    -1  
 $EndComp
@@ -153,6 +159,7 @@ F 0 "C10" H 3442 646 50  0000 L CNN
 F 1 "100nF" H 3442 555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 600 50  0001 C CNN
 F 3 "~" H 3350 600 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    3350 600 
 	1    0    0    -1  
 $EndComp
@@ -343,6 +350,7 @@ F 0 "C2" V 1321 2950 50  0000 C CNN
 F 1 "30pF" V 1412 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 2950 50  0001 C CNN
 F 3 "~" H 1550 2950 50  0001 C CNN
+F 4 "1276-1021-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1550 2950
 	0    1    1    0   
 $EndComp
@@ -354,6 +362,7 @@ F 0 "C3" V 1321 3350 50  0000 C CNN
 F 1 "30pF" V 1412 3350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 3350 50  0001 C CNN
 F 3 "~" H 1550 3350 50  0001 C CNN
+F 4 "1276-1021-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1550 3350
 	0    1    1    0   
 $EndComp
@@ -401,6 +410,7 @@ F 0 "P1" H 6550 3175 50  0000 C CNN
 F 1 "ODROID-C2" H 6550 3084 50  0000 C CNN
 F 2 "footprints:ODROID-C2" H 7450 1300 50  0001 C CNN
 F 3 "" H 7450 1300 50  0000 C CNN
+F 4 "n/a" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6550 2000
 	1    0    0    -1  
 $EndComp
@@ -562,6 +572,7 @@ F 0 "U2" H 2100 7147 60  0000 C CNN
 F 1 "HIH6031" H 2100 7041 60  0000 C CNN
 F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 2200 6550 60  0001 C CNN
 F 3 "" H 2200 6550 60  0001 C CNN
+F 4 "HIH7130-000-001CT-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    2100 6600
 	1    0    0    -1  
 $EndComp
@@ -631,6 +642,7 @@ F 0 "C13" H 7642 9496 50  0000 L CNN
 F 1 "1uF" H 7642 9405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7550 9450 50  0001 C CNN
 F 3 "~" H 7550 9450 50  0001 C CNN
+F 4 "1276-1102-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7550 9450
 	1    0    0    -1  
 $EndComp
@@ -642,6 +654,7 @@ F 0 "C14" H 7542 10446 50  0000 L CNN
 F 1 "1uF" H 7542 10355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7450 10400 50  0001 C CNN
 F 3 "~" H 7450 10400 50  0001 C CNN
+F 4 "1276-1102-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7450 10400
 	1    0    0    -1  
 $EndComp
@@ -755,6 +768,7 @@ F 0 "C1" H 792 6296 50  0000 L CNN
 F 1 "0.1uF" H 792 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 700 6250 50  0001 C CNN
 F 3 "~" H 700 6250 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    700  6250
 	1    0    0    -1  
 $EndComp
@@ -790,6 +804,7 @@ F 0 "C4" H 2842 6396 50  0000 L CNN
 F 1 "1uF" H 2842 6305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 6350 50  0001 C CNN
 F 3 "~" H 2750 6350 50  0001 C CNN
+F 4 "1276-1102-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2750 6350
 	1    0    0    -1  
 $EndComp
@@ -836,6 +851,7 @@ F 0 "R1" V 1304 6850 50  0000 C CNN
 F 1 "4.7k" V 1395 6850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 6850 50  0001 C CNN
 F 3 "~" H 1500 6850 50  0001 C CNN
+F 4 "CR0603-JW-472ELFCT-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    1500 6850
 	0    1    1    0   
 $EndComp
@@ -847,6 +863,7 @@ F 0 "R2" V 1304 7150 50  0000 C CNN
 F 1 "4.7k" V 1395 7150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 7150 50  0001 C CNN
 F 3 "~" H 1500 7150 50  0001 C CNN
+F 4 "CR0603-JW-472ELFCT-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    1500 7150
 	0    1    1    0   
 $EndComp
@@ -956,6 +973,7 @@ F 0 "R7" H 4109 6846 50  0000 L CNN
 F 1 "10k" H 4109 6755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 6800 50  0001 C CNN
 F 3 "~" H 4050 6800 50  0001 C CNN
+F 4 "CR0603-JW-103ELFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4050 6800
 	1    0    0    -1  
 $EndComp
@@ -967,6 +985,7 @@ F 0 "R8" H 4109 7196 50  0000 L CNN
 F 1 "56k" H 4109 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 7150 50  0001 C CNN
 F 3 "~" H 4050 7150 50  0001 C CNN
+F 4 "RMCF0603JT56K0CT-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    4050 7150
 	1    0    0    -1  
 $EndComp
@@ -978,6 +997,7 @@ F 0 "R13" H 4659 6846 50  0000 L CNN
 F 1 "10k" H 4659 6755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 6800 50  0001 C CNN
 F 3 "~" H 4600 6800 50  0001 C CNN
+F 4 "CR0603-JW-103ELFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4600 6800
 	1    0    0    -1  
 $EndComp
@@ -989,6 +1009,7 @@ F 0 "R14" H 4659 7196 50  0000 L CNN
 F 1 "12k" H 4659 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 7150 50  0001 C CNN
 F 3 "~" H 4600 7150 50  0001 C CNN
+F 4 "CR0603-JW-123ELFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4600 7150
 	1    0    0    -1  
 $EndComp
@@ -1000,6 +1021,7 @@ F 0 "R15" H 5259 6846 50  0000 L CNN
 F 1 "100k" H 5259 6755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 6800 50  0001 C CNN
 F 3 "~" H 5200 6800 50  0001 C CNN
+F 4 "CR0603-JW-104ELFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5200 6800
 	1    0    0    -1  
 $EndComp
@@ -1011,6 +1033,7 @@ F 0 "R16" H 5259 7196 50  0000 L CNN
 F 1 "3.6k" H 5259 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 7150 50  0001 C CNN
 F 3 "~" H 5200 7150 50  0001 C CNN
+F 4 "RMCF0603JT3K60CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5200 7150
 	1    0    0    -1  
 $EndComp
@@ -1372,6 +1395,7 @@ F 0 "Q2" H 2137 1696 50  0000 L CNN
 F 1 "DTC114E" H 2137 1605 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 1650 50  0001 L CNN
 F 3 "" H 1950 1650 50  0001 L CNN
+F 4 "DTC114EET1GOSCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1950 1650
 	1    0    0    -1  
 $EndComp
@@ -1403,182 +1427,6 @@ Text Label 5650 1350 0    50   ~ 0
 STM_RESET
 Wire Wire Line
 	5650 1350 6100 1350
-$Comp
-L Device:Q_NMOS_GDS Q1
-U 1 1 5C212CD5
-P 1850 9200
-F 0 "Q1" H 2055 9246 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 2055 9155 50  0000 L CNN
-F 2 "" H 2050 9300 50  0001 C CNN
-F 3 "~" H 1850 9200 50  0001 C CNN
-	1    1850 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q3
-U 1 1 5C22C0AA
-P 2800 9200
-F 0 "Q3" H 3005 9246 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 3005 9155 50  0000 L CNN
-F 2 "" H 3000 9300 50  0001 C CNN
-F 3 "~" H 2800 9200 50  0001 C CNN
-	1    2800 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q4
-U 1 1 5C2449B1
-P 3750 9200
-F 0 "Q4" H 3955 9246 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 3955 9155 50  0000 L CNN
-F 2 "" H 3950 9300 50  0001 C CNN
-F 3 "~" H 3750 9200 50  0001 C CNN
-	1    3750 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q5
-U 1 1 5C25D2B3
-P 4700 9200
-F 0 "Q5" H 4905 9246 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4905 9155 50  0000 L CNN
-F 2 "" H 4900 9300 50  0001 C CNN
-F 3 "~" H 4700 9200 50  0001 C CNN
-	1    4700 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 5C275BB9
-P 1500 9400
-F 0 "R3" H 1559 9446 50  0000 L CNN
-F 1 "10k" H 1559 9355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 9400 50  0001 C CNN
-F 3 "~" H 1500 9400 50  0001 C CNN
-	1    1500 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 5C275C7B
-P 2500 9400
-F 0 "R4" H 2559 9446 50  0000 L CNN
-F 1 "10k" H 2559 9355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 9400 50  0001 C CNN
-F 3 "~" H 2500 9400 50  0001 C CNN
-	1    2500 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 5C275D47
-P 3450 9400
-F 0 "R5" H 3509 9446 50  0000 L CNN
-F 1 "10k" H 3509 9355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 9400 50  0001 C CNN
-F 3 "~" H 3450 9400 50  0001 C CNN
-	1    3450 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R12
-U 1 1 5C275E15
-P 4400 9400
-F 0 "R12" H 4459 9446 50  0000 L CNN
-F 1 "10k" H 4459 9355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 9400 50  0001 C CNN
-F 3 "~" H 4400 9400 50  0001 C CNN
-	1    4400 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0157
-U 1 1 5C2F2CEA
-P 3500 9900
-F 0 "#PWR0157" H 3500 9650 50  0001 C CNN
-F 1 "GND" H 3505 9727 50  0000 C CNN
-F 2 "" H 3500 9900 50  0001 C CNN
-F 3 "" H 3500 9900 50  0001 C CNN
-	1    3500 9900
-	1    0    0    -1  
-$EndComp
-Text Label 1250 9200 0    50   ~ 0
-SWITCH_A
-Text Label 2200 9200 0    50   ~ 0
-SWITCH_B
-Text Label 3200 9200 0    50   ~ 0
-SWITCH_C
-Text Label 4150 9200 0    50   ~ 0
-SWITCH_D
-Wire Wire Line
-	4500 9200 4400 9200
-Wire Wire Line
-	3550 9200 3450 9200
-Wire Wire Line
-	1650 9200 1500 9200
-Wire Wire Line
-	1950 9400 1950 9750
-Wire Wire Line
-	2900 9400 2900 9750
-Wire Wire Line
-	1950 9750 2500 9750
-Connection ~ 2900 9750
-Wire Wire Line
-	3850 9400 3850 9750
-Connection ~ 3850 9750
-Wire Wire Line
-	4800 9400 4800 9750
-Wire Wire Line
-	4400 9300 4400 9200
-Connection ~ 4400 9200
-Wire Wire Line
-	4400 9200 4150 9200
-Wire Wire Line
-	4400 9500 4400 9750
-Wire Wire Line
-	3850 9750 4400 9750
-Connection ~ 4400 9750
-Wire Wire Line
-	4400 9750 4800 9750
-Wire Wire Line
-	3450 9500 3450 9750
-Wire Wire Line
-	2900 9750 3450 9750
-Connection ~ 3450 9750
-Wire Wire Line
-	3450 9750 3500 9750
-Wire Wire Line
-	3500 9900 3500 9750
-Connection ~ 3500 9750
-Wire Wire Line
-	3500 9750 3850 9750
-Wire Wire Line
-	3450 9300 3450 9200
-Connection ~ 3450 9200
-Wire Wire Line
-	3450 9200 3200 9200
-Wire Wire Line
-	2500 9300 2500 9200
-Wire Wire Line
-	2200 9200 2500 9200
-Connection ~ 2500 9200
-Wire Wire Line
-	2500 9200 2600 9200
-Wire Wire Line
-	2500 9500 2500 9750
-Connection ~ 2500 9750
-Wire Wire Line
-	2500 9750 2900 9750
-Wire Wire Line
-	1500 9300 1500 9200
-Connection ~ 1500 9200
-Wire Wire Line
-	1500 9200 1250 9200
-Wire Wire Line
-	1500 9500 1500 9750
-Wire Wire Line
-	1500 9750 1950 9750
-Connection ~ 1950 9750
 Text Label 3750 3700 0    50   ~ 0
 SWITCH_A
 Text Label 3750 3800 0    50   ~ 0
@@ -1587,63 +1435,6 @@ Text Label 2000 3400 0    50   ~ 0
 MOTOR_6
 Text Label 3750 4100 0    50   ~ 0
 MOTOR_5
-Wire Wire Line
-	4800 9000 4800 8700
-$Comp
-L Connector_Generic:Conn_01x08 J3
-U 1 1 5C6CB645
-P 5750 8300
-F 0 "J3" H 5830 8292 50  0000 L CNN
-F 1 "Conn_01x08" H 5830 8201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5750 8300 50  0001 C CNN
-F 3 "~" H 5750 8300 50  0001 C CNN
-	1    5750 8300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 8700 4800 8700
-Wire Wire Line
-	5550 8500 3850 8500
-Wire Wire Line
-	3850 8500 3850 9000
-Wire Wire Line
-	2900 8300 2900 9000
-Wire Wire Line
-	2900 8300 5550 8300
-Wire Wire Line
-	5550 8100 1950 8100
-Wire Wire Line
-	1950 8100 1950 9000
-$Comp
-L power:+48V #PWR0159
-U 1 1 5C7AFDDB
-P 5350 7900
-F 0 "#PWR0159" H 5350 7750 50  0001 C CNN
-F 1 "+48V" H 5365 8073 50  0000 C CNN
-F 2 "" H 5350 7900 50  0001 C CNN
-F 3 "" H 5350 7900 50  0001 C CNN
-	1    5350 7900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 8600 5350 8600
-Wire Wire Line
-	5350 8600 5350 8400
-Wire Wire Line
-	5550 8400 5350 8400
-Connection ~ 5350 8400
-Wire Wire Line
-	5350 8400 5350 8200
-Wire Wire Line
-	5550 8200 5350 8200
-Connection ~ 5350 8200
-Wire Wire Line
-	5350 8200 5350 8000
-Wire Wire Line
-	5550 8000 5350 8000
-Connection ~ 5350 8000
-Wire Wire Line
-	5350 8000 5350 7900
 $Comp
 L custom_symbols:ICM20648 U7
 U 1 1 5CAFE422
@@ -1652,6 +1443,7 @@ F 0 "U7" H 8350 7525 50  0000 C CNN
 F 1 "ICM20648" H 8350 7434 50  0000 C CNN
 F 2 "footprints:ICM-20648" H 8300 7550 50  0001 C CNN
 F 3 "" H 8300 7550 50  0001 C CNN
+F 4 "1428-1061-1-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    8300 7550
 	1    0    0    -1  
 $EndComp
@@ -1671,9 +1463,10 @@ L Device:C_Small C17
 U 1 1 5CAFE9C0
 P 9200 7800
 F 0 "C17" V 8971 7800 50  0000 C CNN
-F 1 ".1uF" V 9062 7800 50  0000 C CNN
+F 1 "0.1uF" V 9062 7800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9200 7800 50  0001 C CNN
 F 3 "~" H 9200 7800 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    9200 7800
 	0    1    1    0   
 $EndComp
@@ -1724,9 +1517,10 @@ L Device:C_Small C18
 U 1 1 5CC0137C
 P 9200 8300
 F 0 "C18" V 8971 8300 50  0000 C CNN
-F 1 ".1uF" V 9062 8300 50  0000 C CNN
+F 1 "0.1uF" V 9062 8300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9200 8300 50  0001 C CNN
 F 3 "~" H 9200 8300 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    9200 8300
 	0    1    1    0   
 $EndComp
@@ -1758,9 +1552,10 @@ L Device:C_Small C15
 U 1 1 5CC89E61
 P 8900 8650
 F 0 "C15" H 8992 8696 50  0000 L CNN
-F 1 ".1uF" H 8992 8605 50  0000 L CNN
+F 1 "0.1uF" H 8992 8605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 8650 50  0001 C CNN
 F 3 "~" H 8900 8650 50  0001 C CNN
+F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    8900 8650
 	1    0    0    -1  
 $EndComp
@@ -2058,8 +1853,6 @@ $EndComp
 Wire Wire Line
 	7000 4350 6900 4350
 Text Notes 4200 7550 0    50   ~ 0
-Consider moving to power board
-Text Notes 1850 10000 0    50   ~ 0
 Consider moving to power board
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J7
