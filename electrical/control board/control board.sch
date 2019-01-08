@@ -606,8 +606,9 @@ U 1 1 5BDD7FC4
 P 7350 9650
 F 0 "J4" H 7378 9626 50  0000 L CNN
 F 1 "datamate_sensors" H 7378 9535 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7350 9650 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_04_P2.00mm_Vertical" H 7350 9650 50  0001 C CNN
 F 3 "~" H 7350 9650 50  0001 C CNN
+F 4 "952-1071-5-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7350 9650
 	1    0    0    -1  
 $EndComp
@@ -617,8 +618,9 @@ U 1 1 5BDD804A
 P 7250 10650
 F 0 "J6" H 7277 10626 50  0000 L CNN
 F 1 "datamate_misc" H 7277 10535 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7250 10650 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_04_P2.00mm_Vertical" H 7250 10650 50  0001 C CNN
 F 3 "~" H 7250 10650 50  0001 C CNN
+F 4 "952-1071-5-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7250 10650
 	1    0    0    -1  
 $EndComp
@@ -1658,8 +1660,9 @@ U 1 1 5C40466A
 P 7200 3550
 F 0 "J5" H 7172 3480 50  0000 R CNN
 F 1 "Motor_1" H 7172 3571 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 3550 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 3550 50  0001 C CNN
 F 3 "~" H 7200 3550 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 3550
 	-1   0    0    1   
 $EndComp
@@ -1669,8 +1672,9 @@ U 1 1 5C404DB9
 P 7200 3900
 F 0 "J10" H 7172 3830 50  0000 R CNN
 F 1 "Motor_2" H 7172 3921 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 3900 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 3900 50  0001 C CNN
 F 3 "~" H 7200 3900 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 3900
 	-1   0    0    1   
 $EndComp
@@ -1680,8 +1684,9 @@ U 1 1 5C404F6F
 P 7200 4250
 F 0 "J11" H 7172 4180 50  0000 R CNN
 F 1 "Motor_3" H 7172 4271 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 4250 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 4250 50  0001 C CNN
 F 3 "~" H 7200 4250 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 4250
 	-1   0    0    1   
 $EndComp
@@ -1691,8 +1696,9 @@ U 1 1 5C405309
 P 7200 4600
 F 0 "J12" H 7172 4530 50  0000 R CNN
 F 1 "Motor_4" H 7172 4621 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 4600 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 4600 50  0001 C CNN
 F 3 "~" H 7200 4600 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 4600
 	-1   0    0    1   
 $EndComp
@@ -1702,8 +1708,9 @@ U 1 1 5C4058D0
 P 7200 4950
 F 0 "J13" H 7172 4880 50  0000 R CNN
 F 1 "Motor_5" H 7172 4971 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 4950 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 4950 50  0001 C CNN
 F 3 "~" H 7200 4950 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 4950
 	-1   0    0    1   
 $EndComp
@@ -1713,8 +1720,9 @@ U 1 1 5C405EB0
 P 7200 5300
 F 0 "J14" H 7172 5230 50  0000 R CNN
 F 1 "Motor_6" H 7172 5321 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 5300 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 5300 50  0001 C CNN
 F 3 "~" H 7200 5300 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 5300
 	-1   0    0    1   
 $EndComp
@@ -1724,8 +1732,9 @@ U 1 1 5C4061FC
 P 7200 5650
 F 0 "J15" H 7172 5580 50  0000 R CNN
 F 1 "Motor_7" H 7172 5671 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 5650 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 5650 50  0001 C CNN
 F 3 "~" H 7200 5650 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 5650
 	-1   0    0    1   
 $EndComp
@@ -1735,8 +1744,9 @@ U 1 1 5C406A53
 P 7200 6000
 F 0 "J16" H 7172 5930 50  0000 R CNN
 F 1 "Motor_8" H 7172 6021 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 6000 50  0001 C CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7200 6000 50  0001 C CNN
 F 3 "~" H 7200 6000 50  0001 C CNN
+F 4 "952-1070-5-ND‎" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7200 6000
 	-1   0    0    1   
 $EndComp
