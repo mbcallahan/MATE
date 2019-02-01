@@ -1985,8 +1985,6 @@ Wire Wire Line
 	4350 900  4650 900 
 Text Notes 6800 6900 0    50   ~ 0
 Add header space for current measurement
-Text Notes 9600 7650 0    50   ~ 0
-This ICM won't work. Find a new one that can be soldered
 Text Label 6650 3450 0    50   ~ 0
 MOTOR_1
 Text Label 6650 3800 0    50   ~ 0
@@ -2037,4 +2035,145 @@ Wire Wire Line
 	2350 5100 2000 5100
 Wire Wire Line
 	2000 3400 2350 3400
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U3
+U 1 1 5C3E3016
+P 9500 1650
+F 0 "U3" H 9500 1892 50  0000 C CNN
+F 1 "LD1117S33TR_SOT223" H 9500 1801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9500 1850 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 9600 1400 50  0001 C CNN
+	1    9500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J3
+U 1 1 5C3E33C6
+P 8700 1850
+F 0 "J3" H 8755 2317 50  0000 C CNN
+F 1 "USB_B" H 8755 2226 50  0000 C CNN
+F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 8850 1800 50  0001 C CNN
+F 3 " ~" H 8850 1800 50  0001 C CNN
+	1    8700 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9000 1850
+NoConn ~ 9000 1950
+Wire Wire Line
+	9000 1650 9100 1650
+$Comp
+L power:GND #PWR0121
+U 1 1 5C415CE4
+P 8700 2300
+F 0 "#PWR0121" H 8700 2050 50  0001 C CNN
+F 1 "GND" H 8705 2127 50  0000 C CNN
+F 2 "" H 8700 2300 50  0001 C CNN
+F 3 "" H 8700 2300 50  0001 C CNN
+	1    8700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5C415D7A
+P 8600 2300
+F 0 "#PWR0122" H 8600 2050 50  0001 C CNN
+F 1 "GND" H 8605 2127 50  0000 C CNN
+F 2 "" H 8600 2300 50  0001 C CNN
+F 3 "" H 8600 2300 50  0001 C CNN
+	1    8600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2300 8600 2250
+Wire Wire Line
+	8700 2300 8700 2250
+Text Notes 9100 2250 0    50   ~ 0
+Not connected to +5V to avoid overcurrent\non USB port attempting to power odroid
+$Comp
+L power:GND #PWR0123
+U 1 1 5C437DB3
+P 9500 1950
+F 0 "#PWR0123" H 9500 1700 50  0001 C CNN
+F 1 "GND" H 9505 1777 50  0000 C CNN
+F 2 "" H 9500 1950 50  0001 C CNN
+F 3 "" H 9500 1950 50  0001 C CNN
+	1    9500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0145
+U 1 1 5C437E5E
+P 10050 1650
+F 0 "#PWR0145" H 10050 1500 50  0001 C CNN
+F 1 "+3.3V" H 10065 1823 50  0000 C CNN
+F 2 "" H 10050 1650 50  0001 C CNN
+F 3 "" H 10050 1650 50  0001 C CNN
+	1    10050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1650 9950 1650
+Text Notes 8900 1200 0    50   ~ 0
+ADD DECOUPLING CAPS
+$Comp
+L Device:C_Small 10u1
+U 1 1 5C449EA8
+P 9100 1750
+F 0 "10u1" H 9192 1796 50  0000 L CNN
+F 1 "C_Small" H 9192 1705 50  0000 L CNN
+F 2 "" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 1650
+Wire Wire Line
+	9100 1650 9200 1650
+$Comp
+L Device:C_Small 10u2
+U 1 1 5C44A03D
+P 9950 1750
+F 0 "10u2" H 10042 1796 50  0000 L CNN
+F 1 "C_Small" H 10042 1705 50  0000 L CNN
+F 2 "" H 9950 1750 50  0001 C CNN
+F 3 "~" H 9950 1750 50  0001 C CNN
+	1    9950 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 1650
+Wire Wire Line
+	9950 1650 9800 1650
+$Comp
+L power:GND #PWR0146
+U 1 1 5C44A100
+P 9100 1850
+F 0 "#PWR0146" H 9100 1600 50  0001 C CNN
+F 1 "GND" H 9105 1677 50  0000 C CNN
+F 2 "" H 9100 1850 50  0001 C CNN
+F 3 "" H 9100 1850 50  0001 C CNN
+	1    9100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 5C44A19A
+P 9950 1850
+F 0 "#PWR0147" H 9950 1600 50  0001 C CNN
+F 1 "GND" H 9955 1677 50  0000 C CNN
+F 2 "" H 9950 1850 50  0001 C CNN
+F 3 "" H 9950 1850 50  0001 C CNN
+	1    9950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_symbols:LSM6DSOTR U5
+U 1 1 5C51DCA7
+P 10550 7750
+F 0 "U5" H 10550 7775 50  0000 C CNN
+F 1 "LSM6DSOTR" H 10550 7684 50  0000 C CNN
+F 2 "" H 10550 7750 50  0001 C CNN
+F 3 "" H 10550 7750 50  0001 C CNN
+	1    10550 7750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
