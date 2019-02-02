@@ -565,18 +565,6 @@ USART1_TX
 Text Label 3750 4400 0    50   ~ 0
 USART1_RX
 $Comp
-L hih6031:HIH6031 U2
-U 1 1 5BE098FF
-P 2100 6600
-F 0 "U2" H 2100 7147 60  0000 C CNN
-F 1 "HIH6031" H 2100 7041 60  0000 C CNN
-F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 2200 6550 60  0001 C CNN
-F 3 "" H 2200 6550 60  0001 C CNN
-F 4 "HIH7130-000-001CT-ND " H 0   0   50  0001 C CNN "Digikey part number"
-	1    2100 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom_symbols:ADM3061 U6
 U 1 1 5BE14455
 P 6400 10400
@@ -756,156 +744,11 @@ Wire Wire Line
 	2000 4200 2350 4200
 Wire Wire Line
 	2000 4300 2350 4300
-Text Label 850  6500 0    50   ~ 0
+Text Label 2500 6800 0    50   ~ 0
 HIH_SCL
-Text Label 850  6600 0    50   ~ 0
+Text Label 2500 6900 0    50   ~ 0
 HIH_SDA
-NoConn ~ 2550 6500
-NoConn ~ 2550 6600
-$Comp
-L Device:C_Small C1
-U 1 1 5BE62B2C
-P 700 6250
-F 0 "C1" H 792 6296 50  0000 L CNN
-F 1 "0.1uF" H 792 6205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 700 6250 50  0001 C CNN
-F 3 "~" H 700 6250 50  0001 C CNN
-F 4 "1276-1005-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
-	1    700  6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 5BE62C5B
-P 700 6550
-F 0 "#PWR0134" H 700 6300 50  0001 C CNN
-F 1 "GND" H 705 6377 50  0000 C CNN
-F 2 "" H 700 6550 50  0001 C CNN
-F 3 "" H 700 6550 50  0001 C CNN
-	1    700  6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0135
-U 1 1 5BE73B22
-P 2550 6150
-F 0 "#PWR0135" H 2550 6000 50  0001 C CNN
-F 1 "+3.3V" H 2565 6323 50  0000 C CNN
-F 2 "" H 2550 6150 50  0001 C CNN
-F 3 "" H 2550 6150 50  0001 C CNN
-	1    2550 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 6150 2550 6250
-$Comp
-L Device:C_Small C4
-U 1 1 5BE7C931
-P 2750 6350
-F 0 "C4" H 2842 6396 50  0000 L CNN
-F 1 "1uF" H 2842 6305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 6350 50  0001 C CNN
-F 3 "~" H 2750 6350 50  0001 C CNN
-F 4 "1276-1102-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
-	1    2750 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0136
-U 1 1 5BE7C9C0
-P 2750 6450
-F 0 "#PWR0136" H 2750 6200 50  0001 C CNN
-F 1 "GND" H 2755 6277 50  0000 C CNN
-F 2 "" H 2750 6450 50  0001 C CNN
-F 3 "" H 2750 6450 50  0001 C CNN
-	1    2750 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 6250 2550 6250
-Connection ~ 2550 6250
-Wire Wire Line
-	2550 6250 2550 6300
-Wire Wire Line
-	850  6500 1250 6500
-Wire Wire Line
-	850  6600 1200 6600
-Wire Wire Line
-	1650 6400 700  6400
-Wire Wire Line
-	700  6400 700  6550
-Wire Wire Line
-	700  6350 700  6400
-Connection ~ 700  6400
-Wire Wire Line
-	1650 6300 1100 6300
-Wire Wire Line
-	1100 6300 1100 6100
-Wire Wire Line
-	1100 6100 700  6100
-Wire Wire Line
-	700  6100 700  6150
-$Comp
-L Device:R_Small R1
-U 1 1 5BEC4A6B
-P 1500 6850
-F 0 "R1" V 1304 6850 50  0000 C CNN
-F 1 "4.7k" V 1395 6850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 6850 50  0001 C CNN
-F 3 "~" H 1500 6850 50  0001 C CNN
-F 4 "CR0603-JW-472ELFCT-ND " H 0   0   50  0001 C CNN "Digikey part number"
-	1    1500 6850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5BEC4B58
-P 1500 7150
-F 0 "R2" V 1304 7150 50  0000 C CNN
-F 1 "4.7k" V 1395 7150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 7150 50  0001 C CNN
-F 3 "~" H 1500 7150 50  0001 C CNN
-F 4 "CR0603-JW-472ELFCT-ND " H 0   0   50  0001 C CNN "Digikey part number"
-	1    1500 7150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1400 6850 1250 6850
-Wire Wire Line
-	1250 6850 1250 6500
-Connection ~ 1250 6500
-Wire Wire Line
-	1250 6500 1650 6500
-Wire Wire Line
-	1400 7150 1200 7150
-Wire Wire Line
-	1200 7150 1200 6600
-Connection ~ 1200 6600
-Wire Wire Line
-	1200 6600 1650 6600
-$Comp
-L power:+3.3V #PWR0137
-U 1 1 5BED8178
-P 1900 6900
-F 0 "#PWR0137" H 1900 6750 50  0001 C CNN
-F 1 "+3.3V" H 1915 7073 50  0000 C CNN
-F 2 "" H 1900 6900 50  0001 C CNN
-F 3 "" H 1900 6900 50  0001 C CNN
-	1    1900 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 7150 1750 7150
-Wire Wire Line
-	1900 7150 1900 6900
-Wire Wire Line
-	1600 6850 1750 6850
-Wire Wire Line
-	1750 6850 1750 7150
-Connection ~ 1750 7150
-Wire Wire Line
-	1750 7150 1900 7150
-Text Notes 2500 7400 0    50   ~ 0
+Text Notes 1700 6100 0    50   ~ 0
 UART4 : Odroid\nUART2 : Motors\nUART1 : Sensors\nUART3 : Misc
 Text Label 5750 9550 0    50   ~ 0
 SENSOR_RX
@@ -1990,6 +1833,7 @@ F 0 "U5" H 10350 7815 50  0000 C CNN
 F 1 "BMI160" H 10350 7724 50  0000 C CNN
 F 2 "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y" H 10350 7700 50  0001 C CNN
 F 3 "" H 10350 7700 50  0001 C CNN
+F 4 " 828-1089-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    10350 7700
 	1    0    0    -1  
 $EndComp
@@ -2170,4 +2014,127 @@ NoConn ~ 10700 8000
 NoConn ~ 10700 8100
 Text Notes 9100 2400 0    50   ~ 0
 Consider adding switch instead
+$Comp
+L custom_symbols:HIH6131-021 U?
+U 1 1 5C781F5E
+P 1700 6700
+F 0 "U?" H 1700 6815 50  0000 C CNN
+F 1 "HIH6131-021" H 1700 6724 50  0000 C CNN
+F 2 "" H 1700 6700 50  0001 C CNN
+F 3 "" H 1700 6700 50  0001 C CNN
+	1    1700 6700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 7100
+NoConn ~ 2100 7000
+NoConn ~ 2100 7100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C7B592C
+P 1200 6700
+F 0 "#PWR?" H 1200 6550 50  0001 C CNN
+F 1 "+3.3V" H 1215 6873 50  0000 C CNN
+F 2 "" H 1200 6700 50  0001 C CNN
+F 3 "" H 1200 6700 50  0001 C CNN
+	1    1200 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6800 1200 6800
+Wire Wire Line
+	1200 6800 1200 6700
+$Comp
+L Device:C_Small C?
+U 1 1 5C7C745D
+P 1150 6900
+F 0 "C?" V 921 6900 50  0000 C CNN
+F 1 ".1uF" V 1012 6900 50  0000 C CNN
+F 2 "" H 1150 6900 50  0001 C CNN
+F 3 "~" H 1150 6900 50  0001 C CNN
+	1    1150 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C7C7CF9
+P 850 6900
+F 0 "C?" H 758 6854 50  0000 R CNN
+F 1 ".22uF" H 758 6945 50  0000 R CNN
+F 2 "" H 850 6900 50  0001 C CNN
+F 3 "~" H 850 6900 50  0001 C CNN
+	1    850  6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 6900 1250 6900
+Wire Wire Line
+	850  6800 1000 6800
+Connection ~ 1200 6800
+Wire Wire Line
+	850  7000 1300 7000
+Wire Wire Line
+	1050 6900 1000 6900
+Wire Wire Line
+	1000 6900 1000 6800
+Connection ~ 1000 6800
+Wire Wire Line
+	1000 6800 1200 6800
+Wire Wire Line
+	2500 6800 2150 6800
+Wire Wire Line
+	2500 6900 2400 6900
+$Comp
+L Device:R_Small R?
+U 1 1 5C87269B
+P 2150 6600
+F 0 "R?" H 2209 6646 50  0000 L CNN
+F 1 "2.2k" H 2209 6555 50  0000 L CNN
+F 2 "" H 2150 6600 50  0001 C CNN
+F 3 "~" H 2150 6600 50  0001 C CNN
+	1    2150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C87274D
+P 2400 6600
+F 0 "R?" H 2459 6646 50  0000 L CNN
+F 1 "2.2k" H 2459 6555 50  0000 L CNN
+F 2 "" H 2400 6600 50  0001 C CNN
+F 3 "~" H 2400 6600 50  0001 C CNN
+	1    2400 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6700 2400 6900
+Connection ~ 2400 6900
+Wire Wire Line
+	2400 6900 2100 6900
+Wire Wire Line
+	2150 6700 2150 6800
+Connection ~ 2150 6800
+Wire Wire Line
+	2150 6800 2100 6800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C89335F
+P 2150 6500
+F 0 "#PWR?" H 2150 6350 50  0001 C CNN
+F 1 "+3.3V" H 2165 6673 50  0000 C CNN
+F 2 "" H 2150 6500 50  0001 C CNN
+F 3 "" H 2150 6500 50  0001 C CNN
+	1    2150 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C8933FB
+P 2400 6500
+F 0 "#PWR?" H 2400 6350 50  0001 C CNN
+F 1 "+3.3V" H 2415 6673 50  0000 C CNN
+F 2 "" H 2400 6500 50  0001 C CNN
+F 3 "" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
