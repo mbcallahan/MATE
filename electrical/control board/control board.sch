@@ -1871,7 +1871,7 @@ U 1 1 5C3E33C6
 P 8700 1850
 F 0 "J3" H 8755 2317 50  0000 C CNN
 F 1 "USB_B" H 8755 2226 50  0000 C CNN
-F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 8850 1800 50  0001 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 8850 1800 50  0001 C CNN
 F 3 " ~" H 8850 1800 50  0001 C CNN
 	1    8700 1850
 	1    0    0    -1  
@@ -1932,8 +1932,6 @@ F 3 "" H 10050 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10050 1650 9950 1650
-Text Notes 8900 1200 0    50   ~ 0
-ADD DECOUPLING CAPS
 $Comp
 L Device:C_Small 10u1
 U 1 1 5C449EA8
@@ -2170,4 +2168,6 @@ NoConn ~ 10000 7800
 NoConn ~ 10700 7900
 NoConn ~ 10700 8000
 NoConn ~ 10700 8100
+Text Notes 9100 2400 0    50   ~ 0
+Consider adding switch instead
 $EndSCHEMATC

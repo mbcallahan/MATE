@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\beuchet\\OneDrive - Rose-Hulman Institute of Technology\\Documents\\MATE\\MATE\\electrical\\control board\\control board.sch")
-    (date "2/1/2019 7:45:49 PM")
+    (date "2/1/2019 8:17:05 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -471,7 +471,7 @@
       (tstamp 5C3E3016))
     (comp (ref J3)
       (value USB_B)
-      (footprint Connector_USB:USB_B_TE_5787834_Vertical)
+      (footprint Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal)
       (datasheet " ~")
       (libsource (lib Connector) (part USB_B) (description "USB Type B connector"))
       (sheetpath (names /) (tstamps /))
