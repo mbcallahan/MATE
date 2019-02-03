@@ -1272,9 +1272,9 @@ Text Label 5650 1350 0    50   ~ 0
 STM_RESET
 Wire Wire Line
 	5650 1350 6100 1350
-Text Label 3750 3700 0    50   ~ 0
+Text Label 3750 4700 0    50   ~ 0
 SWITCH_A
-Text Label 3750 3800 0    50   ~ 0
+Text Label 3750 4800 0    50   ~ 0
 SWITCH_B
 Text Label 2000 3400 0    50   ~ 0
 MOTOR_6
@@ -2279,4 +2279,56 @@ Wire Wire Line
 	1650 1200 1600 1200
 Wire Wire Line
 	1200 1200 1000 1200
+Text Label 3750 4900 0    50   ~ 0
+SWITCH_C
+Text Label 3750 5000 0    50   ~ 0
+SWITCH_D
+Text Label 3750 5100 0    50   ~ 0
+SWITCH_E
+$Comp
+L Connector:Conn_01x06_Male J9
+U 1 1 5C965465
+P 5200 5600
+F 0 "J9" H 5172 5480 50  0000 R CNN
+F 1 "Switch_Connector" H 5172 5571 50  0000 R CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_06_P2.00mm_Vertical" H 5200 5600 50  0001 C CNN
+F 3 "~" H 5200 5600 50  0001 C CNN
+	1    5200 5600
+	-1   0    0    1   
+$EndComp
+Text Label 4600 5300 0    50   ~ 0
+SWITCH_A
+Text Label 4600 5400 0    50   ~ 0
+SWITCH_B
+Text Label 4600 5500 0    50   ~ 0
+SWITCH_C
+Text Label 4600 5600 0    50   ~ 0
+SWITCH_D
+Text Label 4600 5700 0    50   ~ 0
+SWITCH_E
+$Comp
+L power:GND #PWR0164
+U 1 1 5C965E0A
+P 4850 5850
+F 0 "#PWR0164" H 4850 5600 50  0001 C CNN
+F 1 "GND" H 4855 5677 50  0000 C CNN
+F 2 "" H 4850 5850 50  0001 C CNN
+F 3 "" H 4850 5850 50  0001 C CNN
+	1    4850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5800 4850 5800
+Wire Wire Line
+	4850 5800 4850 5850
+Wire Wire Line
+	4600 5700 5000 5700
+Wire Wire Line
+	5000 5600 4600 5600
+Wire Wire Line
+	4600 5500 5000 5500
+Wire Wire Line
+	5000 5400 4600 5400
+Wire Wire Line
+	5000 5300 4600 5300
 $EndSCHEMATC
