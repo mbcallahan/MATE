@@ -1031,6 +1031,7 @@ F 0 "R11" V 4554 1650 50  0000 C CNN
 F 1 "220" V 4645 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 1650 50  0001 C CNN
 F 3 "~" H 4750 1650 50  0001 C CNN
+F 4 "A130087CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4750 1650
 	0    1    1    0   
 $EndComp
@@ -1042,6 +1043,7 @@ F 0 "R10" V 4554 1300 50  0000 C CNN
 F 1 "220" V 4645 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 1300 50  0001 C CNN
 F 3 "~" H 4750 1300 50  0001 C CNN
+F 4 "A130087CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4750 1300
 	0    1    1    0   
 $EndComp
@@ -1053,6 +1055,7 @@ F 0 "R9" V 4946 900 50  0000 C CNN
 F 1 "220" V 4855 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 900 50  0001 C CNN
 F 3 "~" H 4750 900 50  0001 C CNN
+F 4 "A130087CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4750 900 
 	0    -1   -1   0   
 $EndComp
@@ -1163,6 +1166,7 @@ F 0 "R19" V 5746 3100 50  0000 C CNN
 F 1 "220" V 5655 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 3100 50  0001 C CNN
 F 3 "~" H 5550 3100 50  0001 C CNN
+F 4 "A130087CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5550 3100
 	0    -1   -1   0   
 $EndComp
@@ -1174,6 +1178,7 @@ F 0 "R18" V 5746 2750 50  0000 C CNN
 F 1 "220" V 5655 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 2750 50  0001 C CNN
 F 3 "~" H 5550 2750 50  0001 C CNN
+F 4 "A130087CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5550 2750
 	0    -1   -1   0   
 $EndComp
@@ -1185,6 +1190,7 @@ F 0 "R17" V 5746 2350 50  0000 C CNN
 F 1 "220" V 5655 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 2350 50  0001 C CNN
 F 3 "~" H 5550 2350 50  0001 C CNN
+F 4 "A130087CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5550 2350
 	0    -1   -1   0   
 $EndComp
