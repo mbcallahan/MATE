@@ -34,7 +34,7 @@ F 0 "J2" H 1380 2192 50  0000 L CNN
 F 1 "Programming_Header" H 1380 2101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1300 2200 50  0001 C CNN
 F 3 "~" H 1300 2200 50  0001 C CNN
-F 4 "SAM1029-30-ND" H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "HDR100IMP40M-G-V-TH-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1300 2200
 	1    0    0    -1  
 $EndComp
@@ -1301,7 +1301,7 @@ F 0 "J1" H 820 3775 50  0000 C CNN
 F 1 "analog_extra" H 820 3866 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 900 4100 50  0001 C CNN
 F 3 "~" H 900 4100 50  0001 C CNN
-F 4 "SAM1029-30-ND" H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "HDR100IMP40M-G-V-TH-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    900  4100
 	-1   0    0    1   
 $EndComp
@@ -2166,7 +2166,7 @@ F 0 "J8" H 9172 3730 50  0000 R CNN
 F 1 "Power_Header" H 9172 3821 50  0000 R CNN
 F 2 "footprints:1x2 individual header" H 9200 3850 50  0001 C CNN
 F 3 "~" H 9200 3850 50  0001 C CNN
-F 4 "SAM1029-30-ND" H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "HDR100IMP40M-G-V-TH-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    9200 3850
 	-1   0    0    1   
 $EndComp
@@ -2317,7 +2317,7 @@ F 0 "J9" H 5172 5480 50  0000 R CNN
 F 1 "Switch_Connector" H 5172 5571 50  0000 R CNN
 F 2 "Connector_Harwin:Harwin_LTek-Male_06_P2.00mm_Vertical" H 5200 5600 50  0001 C CNN
 F 3 "~" H 5200 5600 50  0001 C CNN
-F 4 "SAM1029-30-ND" H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "952-1072-5-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5200 5600
 	-1   0    0    1   
 $EndComp
@@ -2356,4 +2356,47 @@ Wire Wire Line
 	5000 5400 4600 5400
 Wire Wire Line
 	5000 5300 4600 5300
+$Comp
+L Connector:Conn_01x02_Male J17
+U 1 1 5C5C7AA4
+P 8800 1200
+F 0 "J17" H 8906 1378 50  0000 C CNN
+F 1 "USB_to_5V" H 8906 1287 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 1200 50  0001 C CNN
+F 3 "~" H 8800 1200 50  0001 C CNN
+	1    8800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J18
+U 1 1 5C5C7B58
+P 9900 850
+F 0 "J18" H 10006 1028 50  0000 C CNN
+F 1 "Storage" H 10006 937 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 850 50  0001 C CNN
+F 3 "~" H 9900 850 50  0001 C CNN
+	1    9900 850 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 850 
+NoConn ~ 10100 950 
+Wire Wire Line
+	9000 1300 9100 1300
+Wire Wire Line
+	9100 1300 9100 1650
+$Comp
+L power:+5V #PWR0165
+U 1 1 5C6047CE
+P 9150 1050
+F 0 "#PWR0165" H 9150 900 50  0001 C CNN
+F 1 "+5V" H 9165 1223 50  0000 C CNN
+F 2 "" H 9150 1050 50  0001 C CNN
+F 3 "" H 9150 1050 50  0001 C CNN
+	1    9150 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1200 9150 1200
+Wire Wire Line
+	9150 1200 9150 1050
 $EndSCHEMATC
