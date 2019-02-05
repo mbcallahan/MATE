@@ -2473,4 +2473,60 @@ Wire Wire Line
 	5100 3700 5000 3700
 Wire Wire Line
 	5000 3700 5000 3800
+$Comp
+L Device:LED D?
+U 1 1 5C679AE8
+P 5250 4150
+F 0 "D?" H 5241 4366 50  0000 C CNN
+F 1 "LED-GREEN" H 5241 4275 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 4150 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 5250 4150 50  0001 C CNN
+F 4 "160-1446-1-ND " H 50  1050 50  0001 C CNN "Digikey part number"
+	1    5250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C679E35
+P 5600 4150
+F 0 "R?" V 5796 4150 50  0000 C CNN
+F 1 "220" V 5705 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 4150 50  0001 C CNN
+F 3 "~" H 5600 4150 50  0001 C CNN
+F 4 "A130087CT-ND" H 50  1400 50  0001 C CNN "Digikey part number"
+	1    5600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C67A019
+P 5850 4100
+F 0 "#PWR?" H 5850 3950 50  0001 C CNN
+F 1 "+5V" H 5865 4273 50  0000 C CNN
+F 2 "" H 5850 4100 50  0001 C CNN
+F 3 "" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C67A11A
+P 5000 4200
+F 0 "#PWR?" H 5000 3950 50  0001 C CNN
+F 1 "GND" H 5005 4027 50  0000 C CNN
+F 2 "" H 5000 4200 50  0001 C CNN
+F 3 "" H 5000 4200 50  0001 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4150 5000 4150
+Wire Wire Line
+	5000 4150 5000 4200
+Wire Wire Line
+	5400 4150 5500 4150
+Wire Wire Line
+	5700 4150 5850 4150
+Wire Wire Line
+	5850 4150 5850 4100
 $EndSCHEMATC
