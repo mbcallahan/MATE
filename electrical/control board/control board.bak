@@ -2090,7 +2090,7 @@ Wire Wire Line
 	850  6800 1000 6800
 Connection ~ 1200 6800
 Wire Wire Line
-	850  7000 1300 7000
+	850  7000 1050 7000
 Wire Wire Line
 	1050 6900 1000 6900
 Wire Wire Line
@@ -2280,7 +2280,7 @@ F 0 "SW1" H 1400 1485 50  0000 C CNN
 F 1 "SW_Push" H 1400 1394 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 1400 1400 50  0001 C CNN
 F 3 "" H 1400 1400 50  0001 C CNN
-F 4 "PTS645SM43SMTR92 LFS " H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "CKN9112CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1400 1200
 	1    0    0    -1  
 $EndComp
@@ -2401,4 +2401,76 @@ Wire Wire Line
 	9000 1200 9150 1200
 Wire Wire Line
 	9150 1200 9150 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5C621FD8
+P 1050 7100
+F 0 "#PWR?" H 1050 6850 50  0001 C CNN
+F 1 "GND" H 1055 6927 50  0000 C CNN
+F 2 "" H 1050 7100 50  0001 C CNN
+F 3 "" H 1050 7100 50  0001 C CNN
+	1    1050 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1050 7000
+Wire Wire Line
+	1050 7000 1300 7000
+Wire Wire Line
+	1050 7000 1050 7100
+$Comp
+L Device:R_Small R?
+U 1 1 5C638A1B
+P 5600 3700
+F 0 "R?" V 5796 3700 50  0000 C CNN
+F 1 "220" V 5705 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 3700 50  0001 C CNN
+F 3 "~" H 5600 3700 50  0001 C CNN
+F 4 "A130087CT-ND" H 50  950 50  0001 C CNN "Digikey part number"
+	1    5600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C638BA8
+P 5250 3700
+F 0 "D?" H 5241 3916 50  0000 C CNN
+F 1 "LED-YELLOW" H 5241 3825 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 3700 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-224/LTST-C191KSKT.PDF" H 5250 3700 50  0001 C CNN
+F 4 "160-1448-1-ND " H 50  950 50  0001 C CNN "Digikey part number"
+	1    5250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3700 5400 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5C64E1EA
+P 5000 3800
+F 0 "#PWR?" H 5000 3550 50  0001 C CNN
+F 1 "GND" H 5005 3627 50  0000 C CNN
+F 2 "" H 5000 3800 50  0001 C CNN
+F 3 "" H 5000 3800 50  0001 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C64E2BB
+P 5850 3650
+F 0 "#PWR?" H 5850 3500 50  0001 C CNN
+F 1 "+3.3V" H 5865 3823 50  0000 C CNN
+F 2 "" H 5850 3650 50  0001 C CNN
+F 3 "" H 5850 3650 50  0001 C CNN
+	1    5850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3650 5850 3700
+Wire Wire Line
+	5850 3700 5700 3700
+Wire Wire Line
+	5100 3700 5000 3700
+Wire Wire Line
+	5000 3700 5000 3800
 $EndSCHEMATC
