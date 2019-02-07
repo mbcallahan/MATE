@@ -201,8 +201,6 @@ F 3 "~" H 1600 2250 50  0001 C CNN
 	1    1600 2250
 	1    0    0    -1  
 $EndComp
-Text Label 1100 4750 0    50   ~ 0
-48V_IN
 Text Notes 1000 5600 0    50   ~ 0
 Power
 Wire Notes Line
@@ -355,36 +353,6 @@ F 1 "LD1117S33TR_SOT223" H 2150 4051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2150 4100 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2250 3650 50  0001 C CNN
 	1    2150 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 4950 1100 5050
-Wire Wire Line
-	1150 4950 1100 4950
-Wire Wire Line
-	1100 4850 1100 4750
-Wire Wire Line
-	1150 4850 1100 4850
-$Comp
-L power:GND #PWR0114
-U 1 1 5BC5881D
-P 1100 5050
-F 0 "#PWR0114" H 1100 4800 50  0001 C CNN
-F 1 "GND" H 1105 4877 50  0000 C CNN
-F 2 "" H 1100 5050 50  0001 C CNN
-F 3 "" H 1100 5050 50  0001 C CNN
-	1    1100 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5BC5876F
-P 1350 4850
-F 0 "J1" H 1429 4842 50  0000 L CNN
-F 1 "48V_IN" H 1429 4751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1350 4850 50  0001 C CNN
-F 3 "~" H 1350 4850 50  0001 C CNN
-	1    1350 4850
 	1    0    0    -1  
 $EndComp
 Text Notes 6600 1750 0    50   ~ 0
@@ -1012,8 +980,6 @@ F 3 "" H 5250 4900 50  0001 C CNN
 	1    5250 4900
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 4650 0    50   ~ 0
-DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
 Wire Notes Line
 	3600 5700 800  5700
 Connection ~ 4300 4800
@@ -1307,63 +1273,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 9750 1950 9750
 Connection ~ 1950 9750
-Wire Wire Line
-	4800 9000 4800 8700
-$Comp
-L Connector_Generic:Conn_01x08 J4
-U 1 1 5C6CB645
-P 5750 8300
-F 0 "J4" H 5830 8292 50  0000 L CNN
-F 1 "Conn_01x08" H 5830 8201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5750 8300 50  0001 C CNN
-F 3 "~" H 5750 8300 50  0001 C CNN
-	1    5750 8300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 8700 4800 8700
-Wire Wire Line
-	5550 8500 3850 8500
-Wire Wire Line
-	3850 8500 3850 9000
-Wire Wire Line
-	2900 8300 2900 9000
-Wire Wire Line
-	2900 8300 5550 8300
-Wire Wire Line
-	5550 8100 1950 8100
-Wire Wire Line
-	1950 8100 1950 9000
-$Comp
-L power:+48V #PWR0132
-U 1 1 5C7AFDDB
-P 5350 7900
-F 0 "#PWR0132" H 5350 7750 50  0001 C CNN
-F 1 "+48V" H 5365 8073 50  0000 C CNN
-F 2 "" H 5350 7900 50  0001 C CNN
-F 3 "" H 5350 7900 50  0001 C CNN
-	1    5350 7900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 8600 5350 8600
-Wire Wire Line
-	5350 8600 5350 8400
-Wire Wire Line
-	5550 8400 5350 8400
-Connection ~ 5350 8400
-Wire Wire Line
-	5350 8400 5350 8200
-Wire Wire Line
-	5550 8200 5350 8200
-Connection ~ 5350 8200
-Wire Wire Line
-	5350 8200 5350 8000
-Wire Wire Line
-	5550 8000 5350 8000
-Connection ~ 5350 8000
-Wire Wire Line
-	5350 8000 5350 7900
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J6
 U 1 1 5C362818
@@ -1472,8 +1381,8 @@ L Connector_Generic:Conn_01x05 J5
 U 1 1 5C361B4D
 P 7250 8100
 F 0 "J5" H 7330 8142 50  0000 L CNN
-F 1 "Conn_01x05" H 7330 8051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7250 8100 50  0001 C CNN
+F 1 "Switch_Input" H 7330 8051 50  0000 L CNN
+F 2 "Connector_Harwin:Harwin_LTek-Male_05_P2.00mm_Vertical" H 7250 8100 50  0001 C CNN
 F 3 "~" H 7250 8100 50  0001 C CNN
 	1    7250 8100
 	1    0    0    -1  
@@ -1539,7 +1448,7 @@ U 1 1 5C5E5536
 P 12100 5200
 F 0 "J10" H 12179 5192 50  0000 L CNN
 F 1 "48V_from_conversion" H 12179 5101 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 12100 5200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 12100 5200 50  0001 C CNN
 F 3 "~" H 12100 5200 50  0001 C CNN
 	1    12100 5200
 	1    0    0    -1  
@@ -1648,7 +1557,7 @@ U 1 1 5C681A07
 P 11250 7350
 F 0 "J7" H 11329 7342 50  0000 L CNN
 F 1 "MOTOR_1" H 11329 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 11250 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 11250 7350 50  0001 C CNN
 F 3 "~" H 11250 7350 50  0001 C CNN
 	1    11250 7350
 	1    0    0    -1  
@@ -1689,7 +1598,7 @@ U 1 1 5C6C5A31
 P 12100 7350
 F 0 "J11" H 12179 7342 50  0000 L CNN
 F 1 "MOTOR_2" H 12179 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 12100 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 12100 7350 50  0001 C CNN
 F 3 "~" H 12100 7350 50  0001 C CNN
 	1    12100 7350
 	1    0    0    -1  
@@ -1730,7 +1639,7 @@ U 1 1 5C6E83E2
 P 12950 7350
 F 0 "J13" H 13029 7342 50  0000 L CNN
 F 1 "MOTOR_3" H 13029 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 12950 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 12950 7350 50  0001 C CNN
 F 3 "~" H 12950 7350 50  0001 C CNN
 	1    12950 7350
 	1    0    0    -1  
@@ -1771,7 +1680,7 @@ U 1 1 5C6E83F8
 P 13800 7350
 F 0 "J15" H 13879 7342 50  0000 L CNN
 F 1 "MOTOR_4" H 13879 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 13800 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 13800 7350 50  0001 C CNN
 F 3 "~" H 13800 7350 50  0001 C CNN
 	1    13800 7350
 	1    0    0    -1  
@@ -1812,7 +1721,7 @@ U 1 1 5C6FA65A
 P 11250 8250
 F 0 "J8" H 11329 8242 50  0000 L CNN
 F 1 "MOTOR_5" H 11329 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 11250 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 11250 8250 50  0001 C CNN
 F 3 "~" H 11250 8250 50  0001 C CNN
 	1    11250 8250
 	1    0    0    -1  
@@ -1853,7 +1762,7 @@ U 1 1 5C6FA670
 P 12100 8250
 F 0 "J12" H 12179 8242 50  0000 L CNN
 F 1 "MOTOR_6" H 12179 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 12100 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 12100 8250 50  0001 C CNN
 F 3 "~" H 12100 8250 50  0001 C CNN
 	1    12100 8250
 	1    0    0    -1  
@@ -1894,7 +1803,7 @@ U 1 1 5C6FA686
 P 12950 8250
 F 0 "J14" H 13029 8242 50  0000 L CNN
 F 1 "MOTOR_7" H 13029 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 12950 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 12950 8250 50  0001 C CNN
 F 3 "~" H 12950 8250 50  0001 C CNN
 	1    12950 8250
 	1    0    0    -1  
@@ -1935,7 +1844,7 @@ U 1 1 5C6FA69C
 P 13800 8250
 F 0 "J16" H 13879 8242 50  0000 L CNN
 F 1 "MOTOR_8" H 13879 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical_ThermalVias" H 13800 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 13800 8250 50  0001 C CNN
 F 3 "~" H 13800 8250 50  0001 C CNN
 	1    13800 8250
 	1    0    0    -1  
@@ -1983,4 +1892,96 @@ F 3 "~" H 12000 5950 50  0001 C CNN
 $EndComp
 Text Notes 11900 8800 0    50   ~ 0
 check current rating on headers!
+Wire Wire Line
+	4800 9000 4800 8900
+$Comp
+L power:+48V #PWR0132
+U 1 1 5C795A90
+P 5200 8200
+F 0 "#PWR0132" H 5200 8050 50  0001 C CNN
+F 1 "+48V" H 5215 8373 50  0000 C CNN
+F 2 "" H 5200 8200 50  0001 C CNN
+F 3 "" H 5200 8200 50  0001 C CNN
+	1    5200 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5C795DE3
+P 5500 8300
+F 0 "J4" H 5580 8292 50  0000 L CNN
+F 1 "Switch_A" H 5580 8201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8300 50  0001 C CNN
+F 3 "~" H 5500 8300 50  0001 C CNN
+	1    5500 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5C795EB3
+P 5500 8500
+F 0 "J17" H 5580 8492 50  0000 L CNN
+F 1 "Switch_B" H 5580 8401 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8500 50  0001 C CNN
+F 3 "~" H 5500 8500 50  0001 C CNN
+	1    5500 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5C795F5B
+P 5500 8700
+F 0 "J18" H 5580 8692 50  0000 L CNN
+F 1 "Switch_C" H 5580 8601 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8700 50  0001 C CNN
+F 3 "~" H 5500 8700 50  0001 C CNN
+	1    5500 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5C795FF9
+P 5500 8900
+F 0 "J19" H 5580 8892 50  0000 L CNN
+F 1 "Switch_D" H 5580 8801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8900 50  0001 C CNN
+F 3 "~" H 5500 8900 50  0001 C CNN
+	1    5500 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 8400 5200 8400
+Wire Wire Line
+	5200 8400 5200 8200
+Wire Wire Line
+	5300 8600 5200 8600
+Wire Wire Line
+	5200 8600 5200 8400
+Connection ~ 5200 8400
+Wire Wire Line
+	5300 8800 5200 8800
+Wire Wire Line
+	5200 8800 5200 8600
+Connection ~ 5200 8600
+Wire Wire Line
+	5300 9000 5200 9000
+Wire Wire Line
+	5200 9000 5200 8800
+Connection ~ 5200 8800
+Wire Wire Line
+	5300 8900 4800 8900
+Wire Wire Line
+	5300 8700 3850 8700
+Wire Wire Line
+	3850 8700 3850 9000
+Wire Wire Line
+	5300 8500 2900 8500
+Wire Wire Line
+	2900 8500 2900 9000
+Wire Wire Line
+	5300 8300 1950 8300
+Wire Wire Line
+	1950 8300 1950 9000
+Text Notes 1300 4650 0    50   ~ 0
+DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
 $EndSCHEMATC
