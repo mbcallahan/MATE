@@ -201,8 +201,6 @@ F 3 "~" H 1600 2250 50  0001 C CNN
 	1    1600 2250
 	1    0    0    -1  
 $EndComp
-Text Label 1100 4750 0    50   ~ 0
-48V_IN
 Text Notes 1000 5600 0    50   ~ 0
 Power
 Wire Notes Line
@@ -355,36 +353,6 @@ F 1 "LD1117S33TR_SOT223" H 2150 4051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2150 4100 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2250 3650 50  0001 C CNN
 	1    2150 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 4950 1100 5050
-Wire Wire Line
-	1150 4950 1100 4950
-Wire Wire Line
-	1100 4850 1100 4750
-Wire Wire Line
-	1150 4850 1100 4850
-$Comp
-L power:GND #PWR0114
-U 1 1 5BC5881D
-P 1100 5050
-F 0 "#PWR0114" H 1100 4800 50  0001 C CNN
-F 1 "GND" H 1105 4877 50  0000 C CNN
-F 2 "" H 1100 5050 50  0001 C CNN
-F 3 "" H 1100 5050 50  0001 C CNN
-	1    1100 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5BC5876F
-P 1350 4850
-F 0 "J1" H 1429 4842 50  0000 L CNN
-F 1 "48V_IN" H 1429 4751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1350 4850 50  0001 C CNN
-F 3 "~" H 1350 4850 50  0001 C CNN
-	1    1350 4850
 	1    0    0    -1  
 $EndComp
 Text Notes 6600 1750 0    50   ~ 0
@@ -1012,8 +980,6 @@ F 3 "" H 5250 4900 50  0001 C CNN
 	1    5250 4900
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 4650 0    50   ~ 0
-DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
 Wire Notes Line
 	3600 5700 800  5700
 Connection ~ 4300 4800
@@ -1139,6 +1105,7 @@ F 0 "Q1" H 2055 9246 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 2055 9155 50  0000 L CNN
 F 2 "" H 2050 9300 50  0001 C CNN
 F 3 "~" H 1850 9200 50  0001 C CNN
+F 4 "BTS3046SDRATMA1CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1850 9200
 	1    0    0    -1  
 $EndComp
@@ -1150,6 +1117,7 @@ F 0 "Q2" H 3005 9246 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 3005 9155 50  0000 L CNN
 F 2 "" H 3000 9300 50  0001 C CNN
 F 3 "~" H 2800 9200 50  0001 C CNN
+F 4 "BTS3046SDRATMA1CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2800 9200
 	1    0    0    -1  
 $EndComp
@@ -1161,6 +1129,7 @@ F 0 "Q3" H 3955 9246 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 3955 9155 50  0000 L CNN
 F 2 "" H 3950 9300 50  0001 C CNN
 F 3 "~" H 3750 9200 50  0001 C CNN
+F 4 "BTS3046SDRATMA1CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3750 9200
 	1    0    0    -1  
 $EndComp
@@ -1172,6 +1141,7 @@ F 0 "Q4" H 4905 9246 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 4905 9155 50  0000 L CNN
 F 2 "" H 4900 9300 50  0001 C CNN
 F 3 "~" H 4700 9200 50  0001 C CNN
+F 4 "BTS3046SDRATMA1CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4700 9200
 	1    0    0    -1  
 $EndComp
@@ -2016,4 +1986,6 @@ Wire Wire Line
 	5300 8300 1950 8300
 Wire Wire Line
 	1950 8300 1950 9000
+Text Notes 1300 4650 0    50   ~ 0
+DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
 $EndSCHEMATC
