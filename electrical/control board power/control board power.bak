@@ -1539,7 +1539,7 @@ U 1 1 5C5E5536
 P 12100 5200
 F 0 "J10" H 12179 5192 50  0000 L CNN
 F 1 "48V_from_conversion" H 12179 5101 50  0000 L CNN
-F 2 "" H 12100 5200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 12100 5200 50  0001 C CNN
 F 3 "~" H 12100 5200 50  0001 C CNN
 	1    12100 5200
 	1    0    0    -1  
@@ -1566,17 +1566,6 @@ Wire Wire Line
 Connection ~ 11800 5200
 Wire Wire Line
 	11800 5200 11800 5100
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J9
-U 1 1 5C602E58
-P 12000 5950
-F 0 "J9" H 12050 6267 50  0000 C CNN
-F 1 "24V_from_conversion" H 12050 6176 50  0000 C CNN
-F 2 "" H 12000 5950 50  0001 C CNN
-F 3 "~" H 12000 5950 50  0001 C CNN
-	1    12000 5950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0140
 U 1 1 5C602F37
@@ -1659,7 +1648,7 @@ U 1 1 5C681A07
 P 11250 7350
 F 0 "J7" H 11329 7342 50  0000 L CNN
 F 1 "MOTOR_1" H 11329 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 11250 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 11250 7350 50  0001 C CNN
 F 3 "~" H 11250 7350 50  0001 C CNN
 	1    11250 7350
 	1    0    0    -1  
@@ -1700,7 +1689,7 @@ U 1 1 5C6C5A31
 P 12100 7350
 F 0 "J11" H 12179 7342 50  0000 L CNN
 F 1 "MOTOR_2" H 12179 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 12100 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 12100 7350 50  0001 C CNN
 F 3 "~" H 12100 7350 50  0001 C CNN
 	1    12100 7350
 	1    0    0    -1  
@@ -1741,7 +1730,7 @@ U 1 1 5C6E83E2
 P 12950 7350
 F 0 "J13" H 13029 7342 50  0000 L CNN
 F 1 "MOTOR_3" H 13029 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 12950 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 12950 7350 50  0001 C CNN
 F 3 "~" H 12950 7350 50  0001 C CNN
 	1    12950 7350
 	1    0    0    -1  
@@ -1782,7 +1771,7 @@ U 1 1 5C6E83F8
 P 13800 7350
 F 0 "J15" H 13879 7342 50  0000 L CNN
 F 1 "MOTOR_4" H 13879 7251 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 13800 7350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 13800 7350 50  0001 C CNN
 F 3 "~" H 13800 7350 50  0001 C CNN
 	1    13800 7350
 	1    0    0    -1  
@@ -1823,7 +1812,7 @@ U 1 1 5C6FA65A
 P 11250 8250
 F 0 "J8" H 11329 8242 50  0000 L CNN
 F 1 "MOTOR_5" H 11329 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 11250 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 11250 8250 50  0001 C CNN
 F 3 "~" H 11250 8250 50  0001 C CNN
 	1    11250 8250
 	1    0    0    -1  
@@ -1864,7 +1853,7 @@ U 1 1 5C6FA670
 P 12100 8250
 F 0 "J12" H 12179 8242 50  0000 L CNN
 F 1 "MOTOR_6" H 12179 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 12100 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 12100 8250 50  0001 C CNN
 F 3 "~" H 12100 8250 50  0001 C CNN
 	1    12100 8250
 	1    0    0    -1  
@@ -1905,7 +1894,7 @@ U 1 1 5C6FA686
 P 12950 8250
 F 0 "J14" H 13029 8242 50  0000 L CNN
 F 1 "MOTOR_7" H 13029 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 12950 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 12950 8250 50  0001 C CNN
 F 3 "~" H 12950 8250 50  0001 C CNN
 	1    12950 8250
 	1    0    0    -1  
@@ -1946,7 +1935,7 @@ U 1 1 5C6FA69C
 P 13800 8250
 F 0 "J16" H 13879 8242 50  0000 L CNN
 F 1 "MOTOR_8" H 13879 8151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 13800 8250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 13800 8250 50  0001 C CNN
 F 3 "~" H 13800 8250 50  0001 C CNN
 	1    13800 8250
 	1    0    0    -1  
@@ -1981,4 +1970,17 @@ Wire Wire Line
 	13600 8350 13550 8350
 Wire Wire Line
 	13550 8350 13550 8500
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J9
+U 1 1 5C7111A9
+P 12000 5950
+F 0 "J9" H 12050 6267 50  0000 C CNN
+F 1 "24V_from_conversion" H 12050 6176 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 12000 5950 50  0001 C CNN
+F 3 "~" H 12000 5950 50  0001 C CNN
+	1    12000 5950
+	1    0    0    -1  
+$EndComp
+Text Notes 11900 8800 0    50   ~ 0
+check current rating on headers!
 $EndSCHEMATC
