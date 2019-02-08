@@ -1915,7 +1915,7 @@ U 1 1 5C795DE3
 P 5500 8300
 F 0 "J4" H 5580 8292 50  0000 L CNN
 F 1 "Switch_A" H 5580 8201 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8300 50  0001 C CNN
+F 2 "footprints:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical_Oval_Pads" H 5500 8300 50  0001 C CNN
 F 3 "~" H 5500 8300 50  0001 C CNN
 	1    5500 8300
 	1    0    0    -1  
@@ -1926,7 +1926,7 @@ U 1 1 5C795EB3
 P 5500 8500
 F 0 "J17" H 5580 8492 50  0000 L CNN
 F 1 "Switch_B" H 5580 8401 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8500 50  0001 C CNN
+F 2 "footprints:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical_Oval_Pads" H 5500 8500 50  0001 C CNN
 F 3 "~" H 5500 8500 50  0001 C CNN
 	1    5500 8500
 	1    0    0    -1  
@@ -1937,7 +1937,7 @@ U 1 1 5C795F5B
 P 5500 8700
 F 0 "J18" H 5580 8692 50  0000 L CNN
 F 1 "Switch_C" H 5580 8601 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8700 50  0001 C CNN
+F 2 "footprints:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical_Oval_Pads" H 5500 8700 50  0001 C CNN
 F 3 "~" H 5500 8700 50  0001 C CNN
 	1    5500 8700
 	1    0    0    -1  
@@ -1948,7 +1948,7 @@ U 1 1 5C795FF9
 P 5500 8900
 F 0 "J19" H 5580 8892 50  0000 L CNN
 F 1 "Switch_D" H 5580 8801 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 5500 8900 50  0001 C CNN
+F 2 "footprints:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical_Oval_Pads" H 5500 8900 50  0001 C CNN
 F 3 "~" H 5500 8900 50  0001 C CNN
 	1    5500 8900
 	1    0    0    -1  
