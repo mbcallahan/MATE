@@ -1988,4 +1988,6 @@ Wire Wire Line
 	1950 8300 1950 9000
 Text Notes 1300 4650 0    50   ~ 0
 DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
+Text Notes 1500 9850 0    50   ~ 0
+Add LED indicators
 $EndSCHEMATC
