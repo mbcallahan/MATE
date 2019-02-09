@@ -1743,4 +1743,15 @@ Wire Wire Line
 	6750 9750 6350 9750
 Wire Wire Line
 	6750 10100 6350 10100
+$Comp
+L custom_symbols:Curtis_2000 TB1
+U 1 1 5C643645
+P 9800 6700
+F 0 "TB1" H 9800 6815 50  0000 C CNN
+F 1 "Curtis_2000" H 9800 6724 50  0000 C CNN
+F 2 "footprints:Curtis_2010" H 9800 6700 50  0001 C CNN
+F 3 "" H 9800 6700 50  0001 C CNN
+	1    9800 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

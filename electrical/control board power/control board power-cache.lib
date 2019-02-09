@@ -252,6 +252,18 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# custom_symbols:Curtis_2000
+#
+DEF custom_symbols:Curtis_2000 TB 0 40 Y Y 1 F N
+F0 "TB" 0 100 50 H V C CNN
+F1 "custom_symbols:Curtis_2000" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -450 -50 450 -300 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # custom_symbols:INA240-INA240
 #
 DEF custom_symbols:INA240-INA240 U 0 40 Y Y 1 F N
