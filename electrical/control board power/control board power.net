@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\beuchet\\OneDrive - Rose-Hulman Institute of Technology\\Documents\\MATE\\MATE\\electrical\\control board power\\control board power.sch")
-    (date "2/10/2019 11:10:37 PM")
+    (date "2/10/2019 11:59:17 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -573,7 +573,7 @@
       (tstamp 5C88F44D))
     (comp (ref D12)
       (value D_Small)
-      (footprint Diode_SMD:D_SMC_Handsoldering)
+      (footprint footprints:D_SMC_Handsoldering_Diode_Mark)
       (datasheet ~)
       (fields
         (field (name "Digikey part number") SMCJ150CALFCT-ND))
@@ -582,7 +582,7 @@
       (tstamp 5C8F42D5))
     (comp (ref D11)
       (value D_Small)
-      (footprint Diode_SMD:D_SMC_Handsoldering)
+      (footprint footprints:D_SMC_Handsoldering_Diode_Mark)
       (datasheet ~)
       (fields
         (field (name "Digikey part number") SMCJ150CALFCT-ND))
@@ -591,7 +591,7 @@
       (tstamp 5C8F48E3))
     (comp (ref D10)
       (value D_Small)
-      (footprint Diode_SMD:D_SMC_Handsoldering)
+      (footprint footprints:D_SMC_Handsoldering_Diode_Mark)
       (datasheet ~)
       (fields
         (field (name "Digikey part number") SMCJ150CALFCT-ND))
@@ -600,7 +600,7 @@
       (tstamp 5C8F5150))
     (comp (ref D9)
       (value D_Small)
-      (footprint Diode_SMD:D_SMC_Handsoldering)
+      (footprint footprints:D_SMC_Handsoldering_Diode_Mark)
       (datasheet ~)
       (fields
         (field (name "Digikey part number") SMCJ150CALFCT-ND))
