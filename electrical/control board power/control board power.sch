@@ -1243,96 +1243,50 @@ Wire Wire Line
 Connection ~ 11800 5200
 Wire Wire Line
 	11800 5200 11800 5100
-Wire Wire Line
-	4800 9000 4800 8900
-$Comp
-L power:+48V #PWR0132
-U 1 1 5C795A90
-P 5200 8200
-F 0 "#PWR0132" H 5200 8050 50  0001 C CNN
-F 1 "+48V" H 5215 8373 50  0000 C CNN
-F 2 "" H 5200 8200 50  0001 C CNN
-F 3 "" H 5200 8200 50  0001 C CNN
-	1    5200 8200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5C795DE3
-P 5500 8300
-F 0 "J4" H 5580 8292 50  0000 L CNN
-F 1 "Switch_A" H 5580 8201 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5500 8300 50  0001 C CNN
-F 3 "~" H 5500 8300 50  0001 C CNN
-	1    5500 8300
+P 2400 7950
+F 0 "J4" H 2480 7942 50  0000 L CNN
+F 1 "Switch_A" H 2480 7851 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2400 7950 50  0001 C CNN
+F 3 "~" H 2400 7950 50  0001 C CNN
+	1    2400 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J17
 U 1 1 5C795EB3
-P 5500 8500
-F 0 "J17" H 5580 8492 50  0000 L CNN
-F 1 "Switch_B" H 5580 8401 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5500 8500 50  0001 C CNN
-F 3 "~" H 5500 8500 50  0001 C CNN
-	1    5500 8500
+P 3400 7950
+F 0 "J17" H 3480 7942 50  0000 L CNN
+F 1 "Switch_B" H 3480 7851 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 3400 7950 50  0001 C CNN
+F 3 "~" H 3400 7950 50  0001 C CNN
+	1    3400 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J18
 U 1 1 5C795F5B
-P 5500 8700
-F 0 "J18" H 5580 8692 50  0000 L CNN
-F 1 "Switch_C" H 5580 8601 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5500 8700 50  0001 C CNN
-F 3 "~" H 5500 8700 50  0001 C CNN
-	1    5500 8700
+P 4300 7950
+F 0 "J18" H 4380 7942 50  0000 L CNN
+F 1 "Switch_C" H 4380 7851 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4300 7950 50  0001 C CNN
+F 3 "~" H 4300 7950 50  0001 C CNN
+	1    4300 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J19
 U 1 1 5C795FF9
-P 5500 8900
-F 0 "J19" H 5580 8892 50  0000 L CNN
-F 1 "Switch_D" H 5580 8801 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5500 8900 50  0001 C CNN
-F 3 "~" H 5500 8900 50  0001 C CNN
-	1    5500 8900
+P 5400 7950
+F 0 "J19" H 5480 7942 50  0000 L CNN
+F 1 "Switch_D" H 5480 7851 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5400 7950 50  0001 C CNN
+F 3 "~" H 5400 7950 50  0001 C CNN
+	1    5400 7950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 8400 5200 8400
-Wire Wire Line
-	5200 8400 5200 8200
-Wire Wire Line
-	5300 8600 5200 8600
-Wire Wire Line
-	5200 8600 5200 8400
-Connection ~ 5200 8400
-Wire Wire Line
-	5300 8800 5200 8800
-Wire Wire Line
-	5200 8800 5200 8600
-Connection ~ 5200 8600
-Wire Wire Line
-	5300 9000 5200 9000
-Wire Wire Line
-	5200 9000 5200 8800
-Connection ~ 5200 8800
-Wire Wire Line
-	5300 8900 4800 8900
-Wire Wire Line
-	5300 8700 3850 8700
-Wire Wire Line
-	3850 8700 3850 9000
-Wire Wire Line
-	5300 8500 2900 8500
-Wire Wire Line
-	2900 8500 2900 9000
-Wire Wire Line
-	5300 8300 1950 8300
-Wire Wire Line
-	1950 8300 1950 9000
 Text Notes 1300 4650 0    50   ~ 0
 DO NOT CONNECT 12V AND 48V SIMUTANIOUSLY!!!!
 $Comp
@@ -2022,42 +1976,10 @@ F 3 "~" H 4400 9850 50  0001 C CNN
 	1    4400 9850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+48V #PWR0121
-U 1 1 5C82D014
-P 4750 9950
-F 0 "#PWR0121" H 4750 9800 50  0001 C CNN
-F 1 "+48V" H 4765 10123 50  0000 C CNN
-F 2 "" H 4750 9950 50  0001 C CNN
-F 3 "" H 4750 9950 50  0001 C CNN
-	1    4750 9950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 9950 4400 10000
-Wire Wire Line
-	4400 10000 4750 10000
-Wire Wire Line
-	4750 10000 4750 9950
 Text Notes 3300 10350 0    50   ~ 0
 Consider adding ability to switch\nbetween 24 and 48 V
-$Comp
-L power:+48V #PWR0141
-U 1 1 5C844D20
-P 1550 9950
-F 0 "#PWR0141" H 1550 9800 50  0001 C CNN
-F 1 "+48V" H 1565 10123 50  0000 C CNN
-F 2 "" H 1550 9950 50  0001 C CNN
-F 3 "" H 1550 9950 50  0001 C CNN
-	1    1550 9950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 9950 1950 10050
-Wire Wire Line
-	1950 10050 1550 10050
-Wire Wire Line
-	1550 10050 1550 9950
 $Comp
 L Device:C_Small C24
 U 1 1 5C85E18C
@@ -2087,13 +2009,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 9950 2900 10050
 Wire Wire Line
-	2900 10050 1950 10050
-Connection ~ 1950 10050
-Wire Wire Line
 	3850 9950 3850 10000
-Wire Wire Line
-	3850 10000 4400 10000
-Connection ~ 4400 10000
 $Comp
 L Device:D_Small D12
 U 1 1 5C8F42D5
@@ -2143,59 +2059,177 @@ F 4 "SMCJ150CALFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 8150 1950 8300
-Connection ~ 1950 8300
+	4800 8150 4800 8250
 Wire Wire Line
-	2900 8150 2900 8500
-Connection ~ 2900 8500
+	5200 8050 5050 8050
 Wire Wire Line
-	3850 8150 3850 8700
-Connection ~ 3850 8700
+	5050 8050 5050 8250
 Wire Wire Line
-	4800 8150 4800 8900
-Connection ~ 4800 8900
+	5050 8250 4800 8250
+Connection ~ 4800 8250
+Wire Wire Line
+	4800 8250 4800 9000
+Wire Wire Line
+	5200 7950 5200 7850
+Wire Wire Line
+	5200 7850 5000 7850
+Wire Wire Line
+	4800 7850 4800 7900
+Wire Wire Line
+	3850 8150 3850 8200
+Wire Wire Line
+	4100 8050 4050 8050
+Wire Wire Line
+	4050 8050 4050 8200
+Wire Wire Line
+	4050 8200 3850 8200
+Connection ~ 3850 8200
+Wire Wire Line
+	3850 8200 3850 9000
+Wire Wire Line
+	4100 7950 4100 7900
+Wire Wire Line
+	4100 7900 3950 7900
+Wire Wire Line
+	3850 7900 3850 7950
+Wire Wire Line
+	2900 8150 2900 8250
+Wire Wire Line
+	1950 8150 1950 8200
+Wire Wire Line
+	3200 8050 3100 8050
+Wire Wire Line
+	3100 8050 3100 8250
+Wire Wire Line
+	3100 8250 2900 8250
+Connection ~ 2900 8250
+Wire Wire Line
+	2900 8250 2900 9000
+Wire Wire Line
+	3200 7950 3200 7900
+Wire Wire Line
+	3200 7900 3050 7900
+Wire Wire Line
+	2900 7900 2900 7950
+Wire Wire Line
+	2200 8050 2100 8050
+Wire Wire Line
+	2100 8050 2100 8200
+Wire Wire Line
+	2100 8200 1950 8200
+Connection ~ 1950 8200
+Wire Wire Line
+	1950 8200 1950 9000
+Wire Wire Line
+	2200 7950 2200 7850
+Wire Wire Line
+	2200 7850 2100 7850
+Wire Wire Line
+	1950 7850 1950 7950
 $Comp
-L power:+48V #PWR04
-U 1 1 5C959928
-P 4800 7950
-F 0 "#PWR04" H 4800 7800 50  0001 C CNN
-F 1 "+48V" H 4815 8123 50  0000 C CNN
-F 2 "" H 4800 7950 50  0001 C CNN
-F 3 "" H 4800 7950 50  0001 C CNN
-	1    4800 7950
-	1    0    0    -1  
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5C708A03
+P 5000 7650
+F 0 "J11" V 4966 7562 50  0000 R CNN
+F 1 "Switch_D_High" V 4875 7562 50  0000 R CNN
+F 2 "footprints:Square_Pad_6mm" H 5000 7650 50  0001 C CNN
+F 3 "~" H 5000 7650 50  0001 C CNN
+	1    5000 7650
+	0    -1   -1   0   
 $EndComp
+Connection ~ 5000 7850
+Wire Wire Line
+	5000 7850 4800 7850
 $Comp
-L power:+48V #PWR03
-U 1 1 5C9599E2
-P 3850 7950
-F 0 "#PWR03" H 3850 7800 50  0001 C CNN
-F 1 "+48V" H 3865 8123 50  0000 C CNN
-F 2 "" H 3850 7950 50  0001 C CNN
-F 3 "" H 3850 7950 50  0001 C CNN
-	1    3850 7950
-	1    0    0    -1  
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5C709104
+P 3950 7700
+F 0 "J9" V 3916 7612 50  0000 R CNN
+F 1 "Switch_C_High" V 3825 7612 50  0000 R CNN
+F 2 "footprints:Square_Pad_6mm" H 3950 7700 50  0001 C CNN
+F 3 "~" H 3950 7700 50  0001 C CNN
+	1    3950 7700
+	0    -1   -1   0   
 $EndComp
+Connection ~ 3950 7900
+Wire Wire Line
+	3950 7900 3850 7900
 $Comp
-L power:+48V #PWR02
-U 1 1 5C959A9C
-P 2900 7950
-F 0 "#PWR02" H 2900 7800 50  0001 C CNN
-F 1 "+48V" H 2915 8123 50  0000 C CNN
-F 2 "" H 2900 7950 50  0001 C CNN
-F 3 "" H 2900 7950 50  0001 C CNN
-	1    2900 7950
-	1    0    0    -1  
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5C70963D
+P 3050 7700
+F 0 "J8" V 3016 7612 50  0000 R CNN
+F 1 "Switch_B_High" V 2925 7612 50  0000 R CNN
+F 2 "footprints:Square_Pad_6mm" H 3050 7700 50  0001 C CNN
+F 3 "~" H 3050 7700 50  0001 C CNN
+	1    3050 7700
+	0    -1   -1   0   
 $EndComp
+Connection ~ 3050 7900
+Wire Wire Line
+	3050 7900 2900 7900
 $Comp
-L power:+48V #PWR01
-U 1 1 5C95A1DE
-P 1950 7950
-F 0 "#PWR01" H 1950 7800 50  0001 C CNN
-F 1 "+48V" H 1965 8123 50  0000 C CNN
-F 2 "" H 1950 7950 50  0001 C CNN
-F 3 "" H 1950 7950 50  0001 C CNN
-	1    1950 7950
-	1    0    0    -1  
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5C709BBD
+P 2100 7650
+F 0 "J7" V 2066 7562 50  0000 R CNN
+F 1 "Switch_A_High" V 1975 7562 50  0000 R CNN
+F 2 "footprints:Square_Pad_6mm" H 2100 7650 50  0001 C CNN
+F 3 "~" H 2100 7650 50  0001 C CNN
+	1    2100 7650
+	0    -1   -1   0   
 $EndComp
+Connection ~ 2100 7850
+Wire Wire Line
+	2100 7850 1950 7850
+Text Label 1400 7750 0    50   ~ 0
+SWITCH_A_HIGH
+Text Label 2800 7600 0    50   ~ 0
+SWITCH_B_HIGH
+Text Label 3700 7600 0    50   ~ 0
+SWITCH_C_HIGH
+Text Label 4750 7600 0    50   ~ 0
+SWITCH_D_HIGH
+Wire Wire Line
+	4750 7600 4750 7900
+Wire Wire Line
+	4750 7900 4800 7900
+Connection ~ 4800 7900
+Wire Wire Line
+	4800 7900 4800 7950
+Wire Wire Line
+	3700 7900 3850 7900
+Wire Wire Line
+	3700 7600 3700 7900
+Connection ~ 3850 7900
+Wire Wire Line
+	2800 7600 2800 7900
+Wire Wire Line
+	2800 7900 2900 7900
+Connection ~ 2900 7900
+Wire Wire Line
+	1400 7750 1400 7850
+Wire Wire Line
+	1400 7850 1950 7850
+Connection ~ 1950 7850
+Text Label 1350 10050 0    50   ~ 0
+SWITCH_A_HIGH
+Text Label 2300 10050 0    50   ~ 0
+SWITCH_B_HIGH
+Text Label 3650 10100 0    50   ~ 0
+SWITCH_C_HIGH
+Text Label 4550 10050 0    50   ~ 0
+SWITCH_D_HIGH
+Wire Wire Line
+	4550 10050 4400 10050
+Wire Wire Line
+	4400 9950 4400 10050
+Wire Wire Line
+	3650 10100 3650 10000
+Wire Wire Line
+	3650 10000 3850 10000
+Wire Wire Line
+	2900 10050 2300 10050
+Wire Wire Line
+	1950 10050 1350 10050
 $EndSCHEMATC
