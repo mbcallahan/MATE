@@ -118,7 +118,7 @@ U 1 1 5C58553C
 P 1400 6700
 F 0 "R3" V 1596 6700 50  0000 C CNN
 F 1 "R_Small" V 1505 6700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 6700 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 6700 50  0001 C CNN
 F 3 "~" H 1400 6700 50  0001 C CNN
 	1    1400 6700
 	0    -1   -1   0   
@@ -259,6 +259,7 @@ F 0 "C2" H 2742 4196 50  0000 L CNN
 F 1 "10uF" H 2742 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2650 4150 50  0001 C CNN
 F 3 "~" H 2650 4150 50  0001 C CNN
+F 4 "490-7198-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2650 4150
 	1    0    0    -1  
 $EndComp
@@ -270,6 +271,7 @@ F 0 "C1" H 1692 4196 50  0000 L CNN
 F 1 "10uF" H 1692 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1600 4150 50  0001 C CNN
 F 3 "~" H 1600 4150 50  0001 C CNN
+F 4 "490-7198-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1600 4150
 	1    0    0    -1  
 $EndComp
@@ -378,6 +380,7 @@ F 0 "C12" H 7392 5196 50  0000 L CNN
 F 1 "22uF" H 7392 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7300 5150 50  0001 C CNN
 F 3 "~" H 7300 5150 50  0001 C CNN
+F 4 "1276-1855-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7300 5150
 	1    0    0    -1  
 $EndComp
@@ -402,6 +405,7 @@ F 0 "C13" H 7742 2346 50  0000 L CNN
 F 1 "22uF" H 7742 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7650 2300 50  0001 C CNN
 F 3 "~" H 7650 2300 50  0001 C CNN
+F 4 "1276-1855-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7650 2300
 	1    0    0    -1  
 $EndComp
@@ -458,6 +462,7 @@ F 0 "C8" H 6392 2146 50  0000 L CNN
 F 1 ".1uF" H 6392 2055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 2100 50  0001 C CNN
 F 3 "~" H 6300 2100 50  0001 C CNN
+F 4 "399-1100-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6300 2100
 	1    0    0    -1  
 $EndComp
@@ -528,6 +533,7 @@ F 0 "C11" V 6371 3250 50  0000 C CNN
 F 1 "100pF" V 6462 3250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 3250 50  0001 C CNN
 F 3 "~" H 6600 3250 50  0001 C CNN
+F 4 "732-7947-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6600 3250
 	0    1    1    0   
 $EndComp
@@ -539,6 +545,7 @@ F 0 "C10" V 6371 2900 50  0000 C CNN
 F 1 "2.2nF" V 6462 2900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 2900 50  0001 C CNN
 F 3 "~" H 6600 2900 50  0001 C CNN
+F 4 "732-8003-1-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    6600 2900
 	0    1    1    0   
 $EndComp
@@ -552,6 +559,7 @@ F 0 "C7" H 6242 3246 50  0000 L CNN
 F 1 "1uF" H 6242 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 3200 50  0001 C CNN
 F 3 "~" H 6150 3200 50  0001 C CNN
+F 4 "478-5010-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6150 3200
 	1    0    0    -1  
 $EndComp
@@ -693,6 +701,7 @@ F 0 "C6" H 6142 4946 50  0000 L CNN
 F 1 ".1uF" H 6142 4855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 4900 50  0001 C CNN
 F 3 "~" H 6050 4900 50  0001 C CNN
+F 4 "399-1100-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6050 4900
 	1    0    0    -1  
 $EndComp
@@ -800,6 +809,7 @@ F 0 "C9" H 6442 6146 50  0000 L CNN
 F 1 "10pF" H 6442 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 6100 50  0001 C CNN
 F 3 "~" H 6350 6100 50  0001 C CNN
+F 4 "732-7760-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6350 6100
 	1    0    0    -1  
 $EndComp
@@ -811,6 +821,7 @@ F 0 "C5" H 6092 6146 50  0000 L CNN
 F 1 "1uF" H 6092 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 6100 50  0001 C CNN
 F 3 "~" H 6000 6100 50  0001 C CNN
+F 4 "478-5010-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6000 6100
 	1    0    0    -1  
 $EndComp
@@ -1709,7 +1720,7 @@ U 1 1 5C619A91
 P 1400 7050
 F 0 "R16" V 1596 7050 50  0000 C CNN
 F 1 "R_Small" V 1505 7050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 7050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 7050 50  0001 C CNN
 F 3 "~" H 1400 7050 50  0001 C CNN
 	1    1400 7050
 	0    -1   -1   0   
@@ -1757,6 +1768,7 @@ F 0 "C16" H 8092 2346 50  0000 L CNN
 F 1 "22uF" H 8092 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 8000 2300 50  0001 C CNN
 F 3 "~" H 8000 2300 50  0001 C CNN
+F 4 "1276-1855-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    8000 2300
 	1    0    0    -1  
 $EndComp
@@ -1768,6 +1780,7 @@ F 0 "C18" H 8442 2346 50  0000 L CNN
 F 1 "22uF" H 8442 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 8350 2300 50  0001 C CNN
 F 3 "~" H 8350 2300 50  0001 C CNN
+F 4 "1276-1855-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    8350 2300
 	1    0    0    -1  
 $EndComp
@@ -1779,6 +1792,7 @@ F 0 "C15" H 7742 5196 50  0000 L CNN
 F 1 "22uF" H 7742 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7650 5150 50  0001 C CNN
 F 3 "~" H 7650 5150 50  0001 C CNN
+F 4 "1276-1855-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7650 5150
 	1    0    0    -1  
 $EndComp
@@ -1790,6 +1804,7 @@ F 0 "C17" H 8092 5196 50  0000 L CNN
 F 1 "22uF" H 8092 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 8000 5150 50  0001 C CNN
 F 3 "~" H 8000 5150 50  0001 C CNN
+F 4 "1276-1855-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    8000 5150
 	1    0    0    -1  
 $EndComp
@@ -1834,6 +1849,7 @@ F 0 "C3" H 2992 2246 50  0000 L CNN
 F 1 "2.2uF" H 2992 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2900 2200 50  0001 C CNN
 F 3 "~" H 2900 2200 50  0001 C CNN
+F 4 "445-4497-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2900 2200
 	1    0    0    -1  
 $EndComp
@@ -1845,6 +1861,7 @@ F 0 "C19" H 3392 2246 50  0000 L CNN
 F 1 "2.2uF" H 3392 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3300 2200 50  0001 C CNN
 F 3 "~" H 3300 2200 50  0001 C CNN
+F 4 "445-4497-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3300 2200
 	1    0    0    -1  
 $EndComp
@@ -1856,6 +1873,7 @@ F 0 "C21" H 3792 2246 50  0000 L CNN
 F 1 "0.1uF" H 3792 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 2200 50  0001 C CNN
 F 3 "~" H 3700 2200 50  0001 C CNN
+F 4 "732-12244-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3700 2200
 	1    0    0    -1  
 $EndComp
@@ -1917,6 +1935,7 @@ F 0 "C4" H 3142 5096 50  0000 L CNN
 F 1 "2.2uF" H 3142 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3050 5050 50  0001 C CNN
 F 3 "~" H 3050 5050 50  0001 C CNN
+F 4 "445-4497-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3050 5050
 	1    0    0    -1  
 $EndComp
@@ -1928,6 +1947,7 @@ F 0 "C20" H 3542 5096 50  0000 L CNN
 F 1 "2.2uF" H 3542 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3450 5050 50  0001 C CNN
 F 3 "~" H 3450 5050 50  0001 C CNN
+F 4 "445-4497-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3450 5050
 	1    0    0    -1  
 $EndComp
@@ -1939,6 +1959,7 @@ F 0 "C22" H 3942 5096 50  0000 L CNN
 F 1 "0.1uF" H 3942 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3850 5050 50  0001 C CNN
 F 3 "~" H 3850 5050 50  0001 C CNN
+F 4 "732-12244-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3850 5050
 	1    0    0    -1  
 $EndComp
