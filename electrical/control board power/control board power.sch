@@ -125,7 +125,7 @@ F 0 "R3" V 1596 6700 50  0000 C CNN
 F 1 "9.4k" V 1505 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 6700 50  0001 C CNN
 F 3 "~" H 1400 6700 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "408-1869-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1400 6700
 	0    -1   -1   0   
 $EndComp
