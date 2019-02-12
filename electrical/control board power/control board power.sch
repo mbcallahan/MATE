@@ -22,6 +22,7 @@ F 0 "R1" V 1204 6000 50  0000 C CNN
 F 1 "330" V 1295 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 6000 50  0001 C CNN
 F 3 "~" H 1400 6000 50  0001 C CNN
+F 4 "CR0603-JW-331ELFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1400 6000
 	0    1    1    0   
 $EndComp
@@ -33,6 +34,7 @@ F 0 "R2" V 1204 6300 50  0000 C CNN
 F 1 "150" V 1295 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 6300 50  0001 C CNN
 F 3 "~" H 1400 6300 50  0001 C CNN
+F 4 "RMCF0603JT150RCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1400 6300
 	0    1    1    0   
 $EndComp
@@ -44,6 +46,7 @@ F 0 "D1" H 1792 5745 50  0000 C CNN
 F 1 "LED" H 1792 5836 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 1800 6000 50  0001 C CNN
 F 3 "~" H 1800 6000 50  0001 C CNN
+F 4 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1800 6000
 	-1   0    0    1   
 $EndComp
@@ -55,6 +58,7 @@ F 0 "D2" H 1792 6045 50  0000 C CNN
 F 1 "LED" H 1792 6136 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 1800 6300 50  0001 C CNN
 F 3 "~" H 1800 6300 50  0001 C CNN
+F 4 "160-1446-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1800 6300
 	-1   0    0    1   
 $EndComp
@@ -109,6 +113,7 @@ F 0 "D3" H 1792 6445 50  0000 C CNN
 F 1 "LED" H 1792 6536 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 1800 6700 50  0001 C CNN
 F 3 "~" H 1800 6700 50  0001 C CNN
+F 4 "846-1178-2-ND " H 0   0   50  0001 C CNN "Digikey part number"
 	1    1800 6700
 	-1   0    0    1   
 $EndComp
@@ -117,9 +122,10 @@ L Device:R_Small R3
 U 1 1 5C58553C
 P 1400 6700
 F 0 "R3" V 1596 6700 50  0000 C CNN
-F 1 "4.7k" V 1505 6700 50  0000 C CNN
+F 1 "9.4k" V 1505 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 6700 50  0001 C CNN
 F 3 "~" H 1400 6700 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1400 6700
 	0    -1   -1   0   
 $EndComp
@@ -185,6 +191,7 @@ F 0 "J2" H 1679 2242 50  0000 L CNN
 F 1 "5V" H 1679 2151 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 2250 50  0001 C CNN
 F 3 "~" H 1600 2250 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1600 2250
 	1    0    0    -1  
 $EndComp
@@ -330,6 +337,7 @@ F 0 "U1" H 2150 4142 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 2150 4051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2150 4100 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2250 3650 50  0001 C CNN
+F 4 "LD1117S33TR" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2150 3900
 	1    0    0    -1  
 $EndComp
@@ -512,6 +520,7 @@ F 0 "R10" H 6859 3096 50  0000 L CNN
 F 1 "5.11k" H 6859 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6800 3050 50  0001 C CNN
 F 3 "~" H 6800 3050 50  0001 C CNN
+F 4 "RMCF0603FT5K11CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6800 3050
 	1    0    0    -1  
 $EndComp
@@ -584,6 +593,7 @@ F 0 "R7" V 3904 2900 50  0000 C CNN
 F 1 "100k" V 3995 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 2900 50  0001 C CNN
 F 3 "~" H 4100 2900 50  0001 C CNN
+F 4 "311-100KHRCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4100 2900
 	0    1    1    0   
 $EndComp
@@ -758,6 +768,7 @@ F 0 "U3" H 5300 2465 50  0000 C CNN
 F 1 "LTC7103-LT7103" H 5300 2374 50  0000 C CNN
 F 2 "footprints:LTC7103_long_pads_hole" H 5300 2100 50  0001 C CNN
 F 3 "" H 5300 2100 50  0001 C CNN
+F 4 "LTC7103HUHE#TRPBFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5300 2100
 	1    0    0    -1  
 $EndComp
@@ -769,6 +780,7 @@ F 0 "R8" H 4159 6296 50  0000 L CNN
 F 1 "4.02k" H 4159 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 6250 50  0001 C CNN
 F 3 "~" H 4100 6250 50  0001 C CNN
+F 4 "RMCF0603FT4K02CT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4100 6250
 	1    0    0    -1  
 $EndComp
@@ -871,6 +883,7 @@ F 0 "U2" H 5250 5265 50  0000 C CNN
 F 1 "LTC7103-LT7103" H 5250 5174 50  0000 C CNN
 F 2 "footprints:LTC7103_long_pads_hole" H 5250 4900 50  0001 C CNN
 F 3 "" H 5250 4900 50  0001 C CNN
+F 4 "LTC7103HUHE#TRPBFCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5250 4900
 	1    0    0    -1  
 $EndComp
@@ -933,6 +946,7 @@ F 0 "R4" H 1559 9446 50  0000 L CNN
 F 1 "10k" H 1559 9355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 9400 50  0001 C CNN
 F 3 "~" H 1500 9400 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1500 9400
 	1    0    0    -1  
 $EndComp
@@ -944,6 +958,7 @@ F 0 "R5" H 2559 9446 50  0000 L CNN
 F 1 "10k" H 2559 9355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 9400 50  0001 C CNN
 F 3 "~" H 2500 9400 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2500 9400
 	1    0    0    -1  
 $EndComp
@@ -955,6 +970,7 @@ F 0 "R6" H 3509 9446 50  0000 L CNN
 F 1 "10k" H 3509 9355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 9400 50  0001 C CNN
 F 3 "~" H 3450 9400 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3450 9400
 	1    0    0    -1  
 $EndComp
@@ -966,6 +982,7 @@ F 0 "R9" H 4459 9446 50  0000 L CNN
 F 1 "10k" H 4459 9355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 9400 50  0001 C CNN
 F 3 "~" H 4400 9400 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4400 9400
 	1    0    0    -1  
 $EndComp
@@ -1164,6 +1181,7 @@ F 0 "J5" H 7330 8142 50  0000 L CNN
 F 1 "Switch_Input" H 7330 8051 50  0000 L CNN
 F 2 "Connector_Harwin:Harwin_LTek-Male_05_P2.00mm_Vertical" H 7250 8100 50  0001 C CNN
 F 3 "~" H 7250 8100 50  0001 C CNN
+F 4 "952-1072-5-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7250 8100
 	1    0    0    -1  
 $EndComp
@@ -1220,6 +1238,7 @@ F 0 "J10" H 12179 5192 50  0000 L CNN
 F 1 "48V_from_conversion" H 12179 5101 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 12100 5200 50  0001 C CNN
 F 3 "~" H 12100 5200 50  0001 C CNN
+F 4 "WM8360-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    12100 5200
 	1    0    0    -1  
 $EndComp
@@ -1251,6 +1270,7 @@ F 0 "J4" H 2480 7942 50  0000 L CNN
 F 1 "Switch_A" H 2480 7851 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2400 7950 50  0001 C CNN
 F 3 "~" H 2400 7950 50  0001 C CNN
+F 4 "WM8360-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2400 7950
 	1    0    0    -1  
 $EndComp
@@ -1262,6 +1282,7 @@ F 0 "J17" H 3480 7942 50  0000 L CNN
 F 1 "Switch_B" H 3480 7851 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 3400 7950 50  0001 C CNN
 F 3 "~" H 3400 7950 50  0001 C CNN
+F 4 "WM8360-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3400 7950
 	1    0    0    -1  
 $EndComp
@@ -1273,6 +1294,7 @@ F 0 "J18" H 4380 7942 50  0000 L CNN
 F 1 "Switch_C" H 4380 7851 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4300 7950 50  0001 C CNN
 F 3 "~" H 4300 7950 50  0001 C CNN
+F 4 "WM8360-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4300 7950
 	1    0    0    -1  
 $EndComp
@@ -1284,6 +1306,7 @@ F 0 "J19" H 5480 7942 50  0000 L CNN
 F 1 "Switch_D" H 5480 7851 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5400 7950 50  0001 C CNN
 F 3 "~" H 5400 7950 50  0001 C CNN
+F 4 "WM8360-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5400 7950
 	1    0    0    -1  
 $EndComp
@@ -1297,6 +1320,7 @@ F 0 "D4" H 7242 8795 50  0000 C CNN
 F 1 "LED" H 7242 8886 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 7250 9050 50  0001 C CNN
 F 3 "~" H 7250 9050 50  0001 C CNN
+F 4 "1830-1071-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7250 9050
 	-1   0    0    1   
 $EndComp
@@ -1308,6 +1332,7 @@ F 0 "D5" H 7242 9145 50  0000 C CNN
 F 1 "LED" H 7242 9236 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 7250 9400 50  0001 C CNN
 F 3 "~" H 7250 9400 50  0001 C CNN
+F 4 "1830-1071-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7250 9400
 	-1   0    0    1   
 $EndComp
@@ -1319,6 +1344,7 @@ F 0 "D6" H 7242 9495 50  0000 C CNN
 F 1 "LED" H 7242 9586 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 7250 9750 50  0001 C CNN
 F 3 "~" H 7250 9750 50  0001 C CNN
+F 4 "1830-1071-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7250 9750
 	-1   0    0    1   
 $EndComp
@@ -1330,6 +1356,7 @@ F 0 "D7" H 7242 9845 50  0000 C CNN
 F 1 "LED" H 7242 9936 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 7250 10100 50  0001 C CNN
 F 3 "~" H 7250 10100 50  0001 C CNN
+F 4 "1830-1071-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    7250 10100
 	-1   0    0    1   
 $EndComp
@@ -1341,6 +1368,7 @@ F 0 "R12" V 6654 9050 50  0000 C CNN
 F 1 "150" V 6745 9050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 9050 50  0001 C CNN
 F 3 "~" H 6850 9050 50  0001 C CNN
+F 4 "RMCF0603JT150RCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6850 9050
 	0    1    1    0   
 $EndComp
@@ -1352,6 +1380,7 @@ F 0 "R13" V 6654 9400 50  0000 C CNN
 F 1 "150" V 6745 9400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 9400 50  0001 C CNN
 F 3 "~" H 6850 9400 50  0001 C CNN
+F 4 "RMCF0603JT150RCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6850 9400
 	0    1    1    0   
 $EndComp
@@ -1363,6 +1392,7 @@ F 0 "R14" V 6654 9750 50  0000 C CNN
 F 1 "150" V 6745 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 9750 50  0001 C CNN
 F 3 "~" H 6850 9750 50  0001 C CNN
+F 4 "RMCF0603JT150RCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6850 9750
 	0    1    1    0   
 $EndComp
@@ -1374,6 +1404,7 @@ F 0 "R15" V 6654 10100 50  0000 C CNN
 F 1 "150" V 6745 10100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 10100 50  0001 C CNN
 F 3 "~" H 6850 10100 50  0001 C CNN
+F 4 "RMCF0603JT150RCT-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    6850 10100
 	0    1    1    0   
 $EndComp
@@ -1466,9 +1497,10 @@ L custom_symbols:Curtis_2000 TB1
 U 1 1 5C643645
 P 9800 6700
 F 0 "TB1" H 9800 6815 50  0000 C CNN
-F 1 "Curtis_2000" H 9800 6724 50  0000 C CNN
+F 1 "Curtis_2010" H 9800 6724 50  0000 C CNN
 F 2 "footprints:Curtis_2010" H 9800 6700 50  0001 C CNN
 F 3 "" H 9800 6700 50  0001 C CNN
+F 4 "364-1381-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    9800 6700
 	1    0    0    -1  
 $EndComp
@@ -1604,6 +1636,7 @@ F 0 "J1" H 11080 5642 50  0000 L CNN
 F 1 "Conn_01x02" H 11080 5551 50  0000 L CNN
 F 2 "footprints:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical_Oval_Pads" H 11000 5650 50  0001 C CNN
 F 3 "~" H 11000 5650 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    11000 5650
 	1    0    0    -1  
 $EndComp
@@ -1627,9 +1660,10 @@ L custom_symbols:Curtis_2000 TB2
 U 1 1 5C662F54
 P 9800 7400
 F 0 "TB2" H 9800 7515 50  0000 C CNN
-F 1 "Curtis_2000" H 9800 7424 50  0000 C CNN
+F 1 "Curtis_2010" H 9800 7424 50  0000 C CNN
 F 2 "" H 9800 7400 50  0001 C CNN
 F 3 "" H 9800 7400 50  0001 C CNN
+F 4 "364-1381-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    9800 7400
 	1    0    0    -1  
 $EndComp
@@ -1659,6 +1693,7 @@ F 0 "D8" H 1792 6795 50  0000 C CNN
 F 1 "LED" H 1792 6886 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_diode_mark" H 1800 7050 50  0001 C CNN
 F 3 "~" H 1800 7050 50  0001 C CNN
+F 4 "754-2180-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1800 7050
 	-1   0    0    1   
 $EndComp
@@ -1670,6 +1705,7 @@ F 0 "R16" V 1596 7050 50  0000 C CNN
 F 1 "2.7k" V 1505 7050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 7050 50  0001 C CNN
 F 3 "~" H 1400 7050 50  0001 C CNN
+F 4 "408-1906-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1400 7050
 	0    -1   -1   0   
 $EndComp
@@ -1962,6 +1998,7 @@ F 0 "C23" H 2042 9896 50  0000 L CNN
 F 1 "10uF" H 2042 9805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1950 9850 50  0001 C CNN
 F 3 "~" H 1950 9850 50  0001 C CNN
+F 4 "1276-3307-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    1950 9850
 	1    0    0    -1  
 $EndComp
@@ -1973,6 +2010,7 @@ F 0 "C26" H 4492 9896 50  0000 L CNN
 F 1 "10uF" H 4492 9805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4400 9850 50  0001 C CNN
 F 3 "~" H 4400 9850 50  0001 C CNN
+F 4 "1276-3307-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    4400 9850
 	1    0    0    -1  
 $EndComp
@@ -1988,6 +2026,7 @@ F 0 "C24" H 2992 9896 50  0000 L CNN
 F 1 "10uF" H 2992 9805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2900 9850 50  0001 C CNN
 F 3 "~" H 2900 9850 50  0001 C CNN
+F 4 "1276-3307-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2900 9850
 	1    0    0    -1  
 $EndComp
@@ -1999,6 +2038,7 @@ F 0 "C25" H 3942 9896 50  0000 L CNN
 F 1 "10uF" H 3942 9805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3850 9850 50  0001 C CNN
 F 3 "~" H 3850 9850 50  0001 C CNN
+F 4 "1276-3307-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3850 9850
 	1    0    0    -1  
 $EndComp
@@ -2134,6 +2174,7 @@ F 0 "J11" V 4966 7562 50  0000 R CNN
 F 1 "Switch_D_High" V 4875 7562 50  0000 R CNN
 F 2 "footprints:Square_Pad_6mm" H 5000 7650 50  0001 C CNN
 F 3 "~" H 5000 7650 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    5000 7650
 	0    -1   -1   0   
 $EndComp
@@ -2148,6 +2189,7 @@ F 0 "J9" V 3916 7612 50  0000 R CNN
 F 1 "Switch_C_High" V 3825 7612 50  0000 R CNN
 F 2 "footprints:Square_Pad_6mm" H 3950 7700 50  0001 C CNN
 F 3 "~" H 3950 7700 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3950 7700
 	0    -1   -1   0   
 $EndComp
@@ -2162,6 +2204,7 @@ F 0 "J8" V 3016 7612 50  0000 R CNN
 F 1 "Switch_B_High" V 2925 7612 50  0000 R CNN
 F 2 "footprints:Square_Pad_6mm" H 3050 7700 50  0001 C CNN
 F 3 "~" H 3050 7700 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    3050 7700
 	0    -1   -1   0   
 $EndComp
@@ -2176,6 +2219,7 @@ F 0 "J7" V 2066 7562 50  0000 R CNN
 F 1 "Switch_A_High" V 1975 7562 50  0000 R CNN
 F 2 "footprints:Square_Pad_6mm" H 2100 7650 50  0001 C CNN
 F 3 "~" H 2100 7650 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2100 7650
 	0    -1   -1   0   
 $EndComp
