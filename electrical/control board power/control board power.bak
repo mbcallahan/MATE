@@ -337,7 +337,7 @@ F 0 "U1" H 2150 4142 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 2150 4051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2150 4100 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2250 3650 50  0001 C CNN
-F 4 "LD1117S33TR" H 0   0   50  0001 C CNN "Digikey part number"
+F 4 "497-1242-1-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    2150 3900
 	1    0    0    -1  
 $EndComp
