@@ -1634,7 +1634,7 @@ U 1 1 5C6526E4
 P 11000 5650
 F 0 "J1" H 11080 5642 50  0000 L CNN
 F 1 "Conn_01x02" H 11080 5551 50  0000 L CNN
-F 2 "footprints:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical_Oval_Pads" H 11000 5650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 11000 5650 50  0001 C CNN
 F 3 "~" H 11000 5650 50  0001 C CNN
 F 4 "N/A" H 0   0   50  0001 C CNN "Digikey part number"
 	1    11000 5650
@@ -2276,4 +2276,6 @@ Wire Wire Line
 	2900 10050 2300 10050
 Wire Wire Line
 	1950 10050 1350 10050
+Text Notes 2300 10550 0    50   ~ 0
+Remove 2 of these
 $EndSCHEMATC
