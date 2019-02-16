@@ -949,7 +949,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 9400 2900 9750
 Wire Wire Line
-	1950 9750 2500 9750
+	1950 9750 2300 9750
 Connection ~ 2900 9750
 Wire Wire Line
 	2500 9300 2500 9200
@@ -1913,7 +1913,7 @@ U 1 1 5C73F8B9
 P 8850 6300
 F 0 "J9" H 8900 6517 50  0000 C CNN
 F 1 "Aux_1" H 8900 6426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A2_2x02_P4.20mm_Vertical" H 8850 6300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8850 6300 50  0001 C CNN
 F 3 "~" H 8850 6300 50  0001 C CNN
 	1    8850 6300
 	1    0    0    -1  
@@ -1924,7 +1924,7 @@ U 1 1 5C73FB38
 P 8850 6750
 F 0 "J11" H 8900 6967 50  0000 C CNN
 F 1 "Aux_2" H 8900 6876 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A2_2x02_P4.20mm_Vertical" H 8850 6750 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8850 6750 50  0001 C CNN
 F 3 "~" H 8850 6750 50  0001 C CNN
 	1    8850 6750
 	1    0    0    -1  
@@ -1952,9 +1952,9 @@ Wire Wire Line
 	8550 6750 8550 6850
 Wire Wire Line
 	8650 6850 8550 6850
-Connection ~ 8550 6850
 Wire Wire Line
 	8550 6850 8550 6950
+Connection ~ 8550 6850
 $Comp
 L power:+5V #PWR0131
 U 1 1 5C7AB18C
@@ -2029,4 +2029,18 @@ $EndComp
 Wire Wire Line
 	8550 6500 8550 6400
 Connection ~ 8550 6400
+$Comp
+L power:GND #PWR?
+U 1 1 5C81F492
+P 2300 9750
+F 0 "#PWR?" H 2300 9500 50  0001 C CNN
+F 1 "GND" H 2305 9577 50  0000 C CNN
+F 2 "" H 2300 9750 50  0001 C CNN
+F 3 "" H 2300 9750 50  0001 C CNN
+	1    2300 9750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 9750
+Wire Wire Line
+	2300 9750 2500 9750
 $EndSCHEMATC
