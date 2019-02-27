@@ -2124,10 +2124,10 @@ Wire Wire Line
 	9400 8650 9400 8750
 Connection ~ 9400 8750
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J12
 U 1 1 5C7F656B
 P 9750 8950
-F 0 "J?" H 9800 9467 50  0000 C CNN
+F 0 "J12" H 9800 9467 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 9800 9376 50  0000 C CNN
 F 2 "Connector_Harwin:Harwin_LTek-Male_2x08_P2.00mm_Vertical" H 9750 8950 50  0001 C CNN
 F 3 "~" H 9750 8950 50  0001 C CNN
