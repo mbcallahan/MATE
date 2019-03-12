@@ -1775,6 +1775,7 @@ F 0 "J9" H 8900 6517 50  0000 C CNN
 F 1 "Aux_1" H 8900 6426 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8850 6300 50  0001 C CNN
 F 3 "~" H 8850 6300 50  0001 C CNN
+F 4 "WM8359-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    8850 6300
 	1    0    0    -1  
 $EndComp
@@ -1786,6 +1787,7 @@ F 0 "J11" H 8900 6967 50  0000 C CNN
 F 1 "Aux_2" H 8900 6876 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8850 6750 50  0001 C CNN
 F 3 "~" H 8850 6750 50  0001 C CNN
+F 4 "WM8359-ND" H 0   0   50  0001 C CNN "Digikey part number"
 	1    8850 6750
 	1    0    0    -1  
 $EndComp
@@ -2026,6 +2028,90 @@ F 1 "Conn_01x03" H 7330 7951 50  0000 L CNN
 F 2 "Connector_Harwin:Harwin_LTek-Male_03_P2.00mm_Vertical" H 7250 8000 50  0001 C CNN
 F 3 "~" H 7250 8000 50  0001 C CNN
 	1    7250 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 5C93545E
+P 9450 8350
+F 0 "#PWR0145" H 9450 8100 50  0001 C CNN
+F 1 "GND" H 9455 8177 50  0000 C CNN
+F 2 "" H 9450 8350 50  0001 C CNN
+F 3 "" H 9450 8350 50  0001 C CNN
+	1    9450 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0146
+U 1 1 5C935516
+P 9500 7450
+F 0 "#PWR0146" H 9500 7300 50  0001 C CNN
+F 1 "+5V" H 9515 7623 50  0000 C CNN
+F 2 "" H 9500 7450 50  0001 C CNN
+F 3 "" H 9500 7450 50  0001 C CNN
+	1    9500 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 8250 9450 8250
+Wire Wire Line
+	9450 8250 9450 8350
+Wire Wire Line
+	9650 8050 9450 8050
+Wire Wire Line
+	9450 8050 9450 8250
+Connection ~ 9450 8250
+Wire Wire Line
+	9650 7850 9450 7850
+Wire Wire Line
+	9450 7850 9450 8050
+Connection ~ 9450 8050
+Wire Wire Line
+	9650 7650 9450 7650
+Wire Wire Line
+	9450 7650 9450 7850
+Connection ~ 9450 7850
+Wire Wire Line
+	9650 7550 9500 7550
+Wire Wire Line
+	9500 7550 9500 7450
+Wire Wire Line
+	9650 7750 9500 7750
+Wire Wire Line
+	9500 7750 9500 7550
+Connection ~ 9500 7550
+Wire Wire Line
+	9650 7950 9500 7950
+Wire Wire Line
+	9500 7950 9500 7750
+Connection ~ 9500 7750
+Wire Wire Line
+	9650 8150 9500 8150
+Wire Wire Line
+	9500 8150 9500 7950
+Connection ~ 9500 7950
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 5C9EAFD7
+P 9850 7650
+F 0 "J12" H 9930 7642 50  0000 L CNN
+F 1 "Conn_01x04" H 9930 7551 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 9850 7650 50  0001 C CNN
+F 3 "~" H 9850 7650 50  0001 C CNN
+F 4 "A98335-ND" H 0   0   50  0001 C CNN "Digikey part number"
+	1    9850 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J13
+U 1 1 5C9EB097
+P 9850 8050
+F 0 "J13" H 9930 8042 50  0000 L CNN
+F 1 "Conn_01x04" H 9930 7951 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 9850 8050 50  0001 C CNN
+F 3 "~" H 9850 8050 50  0001 C CNN
+F 4 "A98335-ND" H 0   0   50  0001 C CNN "Digikey part number"
+	1    9850 8050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
