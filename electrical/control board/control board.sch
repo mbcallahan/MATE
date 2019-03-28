@@ -2586,4 +2586,6 @@ Wire Notes Line
 	3400 7600 6150 7600
 Text Label 3750 3800 0    50   ~ 0
 24V_MEASURE
+Text Notes 5800 9100 0    50   ~ 0
+Add 120 Ohm resistors across data lines?\n
 $EndSCHEMATC
