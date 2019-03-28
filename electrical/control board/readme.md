@@ -128,3 +128,37 @@ and signals for switches C, D, and E are unassigned at the moment. The switches 
 | C      | 34                  | PB13     |
 | D      | 35                  | PB14     |
 | E      | 36                  | PB15     |
+
+
+### LEDs
+The control board has two power indicator LEDs. The yellow LED, D7, lights up
+whenever voltage is present on the +3.3V line. The green LED, D8, lights up when
+voltage is present in the 5V line. This LED will not light up when the board
+is powered of the USB port unless the jumpers are configured to connect USB +5V
+to board +5V (see below).
+
+There are also six configurable LEDs. Three are connected to the Odroid/Raspberry
+Pi, and three are connected to the STM32 according to the tables. The LEDs are
+active high.
+
+Odroid/Raspberry Pi LEDS:
+
+| LED Color | Reference Designator | Pin Number (LQFP64) | Pin Name |
+|-----------|----------------------|---------------------|----------|
+| Red       | D1                   | 16                  | PA2      |
+| Yellow    | D2                   | 17                  | PA3      |
+| Green     | D3                   | 20                  | PA4      |
+
+STM32 LEDs:
+
+| LED Color | Reference Designator | Pin Number (LQFP64) | Pin Name |
+|-----------|----------------------|---------------------|----------|
+| Red       | D1                   | 16                  | PA2      |
+| Yellow    | D2                   | 17                  | PA3      |
+| Green     | D3                   | 20                  | PA4      |
+
+### Jumper Configuration
+A single 2.54mm pitch header jumper is used to toggle between having the USB
+input power the 3.3V line only or the 3.3V line and the 5V line. If connecting
+the jumper, make sure the USB power supply can support the entire board. In
+particular, the Odroid or Raspberry Pi can use up to 3 amps. 
