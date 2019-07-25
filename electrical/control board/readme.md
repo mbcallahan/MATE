@@ -93,7 +93,8 @@
   </tr>
 </table>
 
-The control board also hase four analog inputs that can measure the voltage of all four nominal voltages present on the ROV:
+The control board also has four analog inputs that can measure the voltage of
+all four nominal voltages present on the ROV:
 
 | Nominal Voltage (V) | Analog Input Voltage at Nominal Voltage (V) | Pin Number (LQFP64) | Pin Name |
 |---------------------|---------------------------------------------|---------------------|----------|
@@ -103,7 +104,8 @@ The control board also hase four analog inputs that can measure the voltage of a
 | 48                  | 1.6679                                      | 10                  | PC2      |
 
 ### Motors
-The control board supports up to 8 motors driven by a direct PWM signal. The motor drivers we have use a PWM input at 50Hz, with time highs from 1100us to 1900us.
+The control board supports up to 8 motors driven by a direct PWM signal.
+The motor drivers we have use a PWM input at 50Hz, with time highs from 1100us to 1900us.
 
 | Motor | Pin Number (LQFP64) | Pin Name |
 |-------|---------------------|----------|
@@ -117,9 +119,12 @@ The control board supports up to 8 motors driven by a direct PWM signal. The mot
 | 8     | 50                  | PA15     |
 
 ### Low side switches
-The control board as 5 outputs designated for low side switches, however, the power board only has two.
-The headers will be configured to send the signals from switches A and B to the low side switches on the board,
-and signals for switches C, D, and E are unassigned at the moment. The switches are a single digital output, active high.
+The control board as 5 outputs designated for low side switches, however, the
+power board only has two.
+The headers will be configured to send the signals from switches A and B to the
+low side switches on the board,
+and signals for switches C, D, and E are unassigned at the moment. The switches
+are a single digital output, active high.
 
 | Switch | Pin Number (LQFP64) | Pin Name |
 |--------|---------------------|----------|
@@ -161,4 +166,11 @@ STM32 LEDs:
 A single 2.54mm pitch header jumper is used to toggle between having the USB
 input power the 3.3V line only or the 3.3V line and the 5V line. If connecting
 the jumper, make sure the USB power supply can support the entire board. In
-particular, the Odroid or Raspberry Pi can use up to 3 amps. 
+particular, the Odroid or Raspberry Pi can use up to 3 amps. To connect the
+USB input to the 5V line, connect the jumper to header J17. Header J18 is not
+connected to anything and has been provided to store that jumper.
+
+
+
+### Things to be fixed
+* Use an IMU that can actually be soldered
