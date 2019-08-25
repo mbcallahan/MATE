@@ -1,4 +1,5 @@
 ## Control Board
+The control board contains the main STM32 microcontroller, the IMU (inertial measurement unit, the accelerometer and gyroscope), the temperature and humidity sensor, and headers for the motor drivers.
 ### Sensors
 <table>
   <tr>
@@ -170,7 +171,8 @@ particular, the Odroid or Raspberry Pi can use up to 3 amps. To connect the
 USB input to the 5V line, connect the jumper to header J17. Header J18 is not
 connected to anything and has been provided to store that jumper.
 
-
+### Known Issues
+* The IMU was not soldered very well and may not work at all or work intermittently.
 
 ### Things to be fixed
 * Use an IMU that can actually be soldered
