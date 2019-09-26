@@ -1,0 +1,15 @@
+from the datasheet,(https://www.st.com/en/microcontrollers-microprocessors/stm32f446re.html) it appears that the stm can read a usb micro AB port using the PB 12-15 pins. This would hook up to the switch-connector. 
+
+that it has usb is advertized in the description, so hopefully it won't need too much work to read usb messages.
+page 22 talks about power for the usb
+
+more on setup on page 37
+
+this page discusses the pinouts of the micro-usb ab https://pinouts.ru/PortableDevices/micro_usb_pinout.shtml
+
+
+it appears the usb controller needs a 48MHz oscillator and we currently have an 8MHz oscillator. I don't know if changing this will break anything. 
+
+USB needs 3.3V, thankfully, this is already supplied
+
+the datasheet doesn't say anything about the software. I'll have to loo somehere else
